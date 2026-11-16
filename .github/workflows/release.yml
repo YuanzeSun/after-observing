@@ -57,6 +57,8 @@ jobs:
           sudo apt-get -o Acquire::http::Dl-Limit=2929 -o Acquire::https::Dl-Limit=2929 update
           sudo apt-get -o Acquire::http::Dl-Limit=2929 -o Acquire::https::Dl-Limit=2929 install -y xvfb libgl1 libegl1 libasound2t64
       - name: Verified SDK, Python dependencies and save baseline
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           python tools/ci.py sdk
           python tools/ci.py deps
