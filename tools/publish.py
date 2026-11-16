@@ -39,7 +39,21 @@ def github(args):
     except urllib.error.HTTPError as e:
         if e.code!=404:raise
         commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R,text=True).strip()
-        release=api('POST',base+'/releases',{'tag_name':args.tag,'target_commitish':commit,'name':'观测结束以后 '+VERSION,'draft':True,'prerelease':'-' in VERSION,'body':(R/'docs/RELEASE_NOTES.md').read_text()})
+        preview=json.loads((R/'.github/release-policy.json').read_text())['prerelease']
+        release=api('POST',base+'/releases',{'tag_name':args.tag,'target_commitish':commit,'name':'观测结束以后 '+VERSION,'draft':True,'prerelease':preview or '-' in VERSION,'body':(R/'docs/RELEASE_NOTES.md').read_text()})
+    if not release['draft']:
+        commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R,text=True).strip()
+        if release['target_commitish']!=commit:raise SystemExit('Published tag belongs to a different commit')
+        names={p.name for p in files};existing={a['name']:a for a in release['assets']}
+        if not names.issubset(existing):raise SystemExit('Published release is incomplete; refusing overwrite')
+        sums=existing['SHA256SUMS.txt'];url=sums['browser_download_url']
+        if not url.startswith('https://github.com/'+repository+'/releases/download/'):raise SystemExit('Unexpected checksum URL')
+        with urllib.request.urlopen(url,timeout=30) as f:raw=f.read(131073)
+        if len(raw)>131072:raise SystemExit('Unexpected checksum size')
+        for line in raw.decode().splitlines():
+            value,name=line.split('  ',1)
+            if name not in existing or existing[name].get('digest')!='sha256:'+value:raise SystemExit('Published asset digest does not match its manifest')
+        print('Same commit is already completely published; preserved immutable release:',release['html_url']);return
     if not release['draft'] and args.draft:raise SystemExit('Refusing to modify an already published release')
     token=os.environ.get('GH_TOKEN') or os.environ['GITHUB_TOKEN']
     existing={a['name']:a for a in release['assets']}
