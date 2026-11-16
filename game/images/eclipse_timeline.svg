@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<defs><radialGradient id="moon"><stop offset="0" stop-color="#ece6d5"/><stop offset="1" stop-color="#b9b9b7"/></radialGradient><radialGradient id="red"><stop offset="0" stop-color="#a55b43"/><stop offset="1" stop-color="#482e2d"/></radialGradient><clipPath id="one"><circle cx="170" cy="230" r="90"/></clipPath><clipPath id="five"><circle cx="1430" cy="230" r="90"/></clipPath></defs>
+<rect width="1600" height="520" fill="#091426"/>
+<path d="M170 395H1430" stroke="#73869a" stroke-width="3"/>
+<circle cx="170" cy="230" r="90" fill="url(#moon)"/>
+<circle cx="485" cy="230" r="90" fill="url(#red)"/>
+<circle cx="800" cy="230" r="90" fill="#603b32"/>
+<circle cx="1115" cy="230" r="90" fill="url(#red)"/>
+<circle cx="1430" cy="230" r="90" fill="url(#moon)"/>
+<g fill="#c9d7e4"><circle cx="170" cy="395" r="8"/><circle cx="485" cy="395" r="8"/><circle cx="800" cy="395" r="8"/><circle cx="1115" cy="395" r="8"/><circle cx="1430" cy="395" r="8"/></g>
+</svg>

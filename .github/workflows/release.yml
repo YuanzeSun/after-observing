@@ -1,0 +1,100 @@
+name: Release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Commit, branch or tag to build'
+        default: main
+        required: true
+      tag:
+        description: 'Must equal v + config.version'
+        default: v1.1
+        required: true
+      draft:
+        description: 'Keep the release as a draft'
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: release-${{ inputs.tag || github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    outputs:
+      tag: ${{ steps.version.outputs.tag }}
+    env:
+      SDL_AUDIODRIVER: dummy
+      LIBGL_ALWAYS_SOFTWARE: '1'
+      RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Validate release version and sources
+        id: version
+        run: |
+          python tools/ci.py tag --tag "$RELEASE_TAG"
+          python -m unittest discover -s tests -v
+          python tools/ci.py static
+          echo "tag=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .build/cache
+          key: tools-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('.github/toolchain.json', 'requirements-ci.lock') }}
+      - name: Native display libraries
+        run: |
+          sudo apt-get -o Acquire::http::Dl-Limit=2929 -o Acquire::https::Dl-Limit=2929 update
+          sudo apt-get -o Acquire::http::Dl-Limit=2929 -o Acquire::https::Dl-Limit=2929 install -y xvfb libgl1 libegl1 libasound2t64
+      - name: Verified SDK, Python dependencies and save baseline
+        run: |
+          python tools/ci.py sdk
+          python tools/ci.py deps
+          python tools/ci.py baseline
+      - name: Native verification
+        run: xvfb-run -a python tools/ci.py native
+      - name: Build, archive checks, packaged smoke and offline reader
+        run: xvfb-run -a python tools/ci.py build
+      - name: Upload verified release files
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          KEEP_DRAFT: ${{ github.event_name == 'workflow_dispatch' && inputs.draft }}
+        run: |
+          args=()
+          if [ "$KEEP_DRAFT" = "true" ]; then args+=(--draft); fi
+          python tools/publish.py github --tag "$RELEASE_TAG" "${args[@]}"
+      - name: Keep diagnostics if the release fails
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: release-diagnostics-${{ github.sha }}
+          retention-days: 3
+          if-no-files-found: warn
+          path: |
+            docs/*coverage.json
+            docs/*report.json
+            docs/package-*.json
+            .build/qa/*.log
+            .build/playthrough/*/native.log
+  sync-itch:
+    needs: build-and-publish
+    if: vars.ITCH_PUBLISH_ENABLED == 'true' && (github.event_name != 'workflow_dispatch' || !inputs.draft)
+    uses: ./.github/workflows/itch.yml
+    permissions:
+      contents: read
+    with:
+      tag: ${{ needs.build-and-publish.outputs.tag }}
+      target: ${{ vars.ITCH_TARGET }}
+    secrets:
+      BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+

@@ -1,0 +1,56 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  native-checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      SDL_AUDIODRIVER: dummy
+      LIBGL_ALWAYS_SOFTWARE: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Static source and asset checks
+        run: |
+          python -m unittest discover -s tests -v
+          python tools/ci.py static
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .build/cache
+          key: tools-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('.github/toolchain.json', 'requirements-ci.lock') }}
+      - name: Native display libraries
+        run: |
+          sudo apt-get -o Acquire::http::Dl-Limit=2929 -o Acquire::https::Dl-Limit=2929 update
+          sudo apt-get -o Acquire::http::Dl-Limit=2929 -o Acquire::https::Dl-Limit=2929 install -y xvfb libgl1 libegl1 libasound2t64
+      - name: Verified toolchain and statement IDs
+        run: |
+          python tools/ci.py sdk
+          python tools/ci.py baseline
+      - name: Eight native paths, menus, saves and layout
+        run: xvfb-run -a python tools/ci.py native
+      - name: Store compact failure and verification evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verification-${{ github.sha }}
+          retention-days: 3
+          if-no-files-found: warn
+          path: |
+            docs/playthrough-coverage.json
+            docs/body-statistics.json
+            .build/playthrough/*/native.log
+            .build/qa/native-ui/native.log
+

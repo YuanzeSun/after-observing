@@ -1,0 +1,9 @@
+{
+  "renpy_version": "8.6.0",
+  "renpy_url": "https://www.renpy.org/dl/8.6.0/renpy-8.6.0-sdkarm.tar.bz2",
+  "renpy_sha256": "2306157a4cfb5331b4f71129f440e3504435c98f274149fb9b620867445be450",
+  "download_bytes_per_second": 3000000,
+  "butler_version": "15.32.0",
+  "butler_url": "https://broth.itch.zone/butler/linux-amd64/15.32.0/archive/default",
+  "butler_sha256": "2335971394ef6596f95ded0833e85ee28755e13761716ef4c91d6b11f69162f5"
+}

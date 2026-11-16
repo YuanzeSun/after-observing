@@ -1,0 +1,74 @@
+{
+  "version": "1.1",
+  "origin": "Previously verified 1.1 Linux distribution",
+  "files": [
+    {
+      "path": "game/core.rpyc",
+      "sha256": "81f0c054dfc35a0b3163bc6d32e41d458f9a4813b95446e12ac3b66a1364036e"
+    },
+    {
+      "path": "game/flow.rpyc",
+      "sha256": "c0389e5f058d19b14f1dd33beac136ba3c0be602e00315a474dc3b9e154e5bab"
+    },
+    {
+      "path": "game/screens.rpyc",
+      "sha256": "a4b08b14c8a7f99115a5e1d3ff2160589f41edefe0da8e511f56339bc6aa98e9"
+    },
+    {
+      "path": "game/story/akari.rpyc",
+      "sha256": "2c562547e9e290fd1edc8a2ccbd635cb4eb0792f7ae2f450841b3a891ce6a87a"
+    },
+    {
+      "path": "game/story/chinatsu.rpyc",
+      "sha256": "c009a701bf8a54c8f08a8ddb90fcb8f7863a9301b28262b53ff6e50934ca1d8b"
+    },
+    {
+      "path": "game/story/common_choice.rpyc",
+      "sha256": "3e8dc357f54f747461f7c014c6292763b342aa99dc881c5f94cb333d9c19d94c"
+    },
+    {
+      "path": "game/story/common_g04.rpyc",
+      "sha256": "59abe62b2f44b76a92b9ecd2ab68cd4c438a433097ae7907c74ccf023efc6815"
+    },
+    {
+      "path": "game/story/common_g05.rpyc",
+      "sha256": "6632800d72ed06788ca71bbee5d7d525a7c617e9c6419aa1b5e8e93ddaba229f"
+    },
+    {
+      "path": "game/story/common_methods.rpyc",
+      "sha256": "e5c9d76376a4b7c6b895fb652d60874543ca303827d79054f460f0d93fb5270e"
+    },
+    {
+      "path": "game/story/common_opening.rpyc",
+      "sha256": "0a2973c9dcc179287fa3f033045b10d7d257a71ec067e97a7eb1c1357d95d79d"
+    },
+    {
+      "path": "game/story/common_second.rpyc",
+      "sha256": "c6fda9984b5c6a1e7cf66542f0070e435183255ce53a6ac7978372f7c79929b7"
+    },
+    {
+      "path": "game/story/haruka.rpyc",
+      "sha256": "8e1a305f8f63423f2cf3128274de19c497b3f7454592af584583914978c1ecb1"
+    },
+    {
+      "path": "game/story/rin.rpyc",
+      "sha256": "49b12f6d22bbf799b2f8afd07bffe2b49c91a1adf2e794566c90ec31b9a5a645"
+    },
+    {
+      "path": "game/story/shared_camp.rpyc",
+      "sha256": "7c093418bcbf301ace182080889bd50b0a2b33723764cd5d1a9fa719d14d5e7d"
+    },
+    {
+      "path": "game/story/shared_graduation.rpyc",
+      "sha256": "6f579b406dae673dcb78c3e2c71bdcbd077caaae44cea5fe25f5dd582503c2e0"
+    },
+    {
+      "path": "game/story/shared_observing.rpyc",
+      "sha256": "60017eedf1f6eb3c42c325ab70c3fd062e86e6de5f928a2d1ee11fdd2952cf81"
+    },
+    {
+      "path": "game/story/shared_trial.rpyc",
+      "sha256": "3e014c65ffda191b2bc1bdc038e738d0900a7c914e1e989fedf6d42bcbb6c4bd"
+    }
+  ]
+}

@@ -1,0 +1,9695 @@
+{
+  "a01_01": {
+    "title": "不用带工具的早上",
+    "background": "platform_day",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 4
+  },
+  "a01_02": {
+    "title": "列车上空着的半页",
+    "background": "train_day",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 28
+  },
+  "a01_03": {
+    "title": "材料的另一种用途",
+    "background": "hardware_shop",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 68
+  },
+  "a01_04": {
+    "title": "午饭不能用剩料做",
+    "background": "cafe",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 130
+  },
+  "a01_05": {
+    "title": "试听机第三首",
+    "background": "bookshop",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 195
+  },
+  "a01_06": {
+    "title": "河边的两只纸袋",
+    "background": "riverside",
+    "date": "2025-12-06",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 245
+  },
+  "a01_09": {
+    "title": "回去的车不需要赶",
+    "background": "train_night",
+    "date": "2025-12-06",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 295
+  },
+  "a01_10": {
+    "title": "副歌后面的留言",
+    "background": "bedroom",
+    "date": "2025-12-06",
+    "period": "night",
+    "actors": [],
+    "music": "night",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 371,
+    "phone": "a"
+  },
+  "a01_07": {
+    "title": "没有写进清单的一本书",
+    "background": "bookshop",
+    "date": "2025-12-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 414
+  },
+  "a01_08": {
+    "title": "只送到路口",
+    "background": "road_day",
+    "date": "2025-12-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a01",
+    "source": "story/akari.rpy",
+    "line": 454
+  },
+  "a02_01": {
+    "title": "十分钟之前",
+    "background": "classroom",
+    "date": "2025-12-12",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 492
+  },
+  "a02_02": {
+    "title": "还没有名字的握套",
+    "background": "repair_room",
+    "date": "2025-12-12",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 520
+  },
+  "a02_03": {
+    "title": "两种不够久的试法",
+    "background": "club",
+    "date": "2025-12-12",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ],
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 569
+  },
+  "a02_04": {
+    "title": "周日买不了的时间",
+    "background": "road_day",
+    "date": "2025-12-14",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 620
+  },
+  "a02_05": {
+    "title": "两点之前的雨",
+    "background": "arcade",
+    "date": "2025-12-14",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "puzzled"
+      ]
+    ],
+    "music": "rain",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 668,
+    "weather": "rain"
+  },
+  "a02_06": {
+    "title": "没有拆开的纸袋",
+    "background": "classroom",
+    "date": "2025-12-16",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 724
+  },
+  "a02_09": {
+    "title": "不能被一口吞下的午休",
+    "background": "classroom",
+    "date": "2025-12-17",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 758
+  },
+  "a02_10": {
+    "title": "问完老师的那段路",
+    "background": "stairwell",
+    "date": "2025-12-17",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 824
+  },
+  "a02_11": {
+    "title": "第三把椅子",
+    "background": "cafe",
+    "date": "2025-12-17",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 851
+  },
+  "a02_07": {
+    "title": "合宿前的清单",
+    "background": "club",
+    "date": "2025-12-19",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 892
+  },
+  "a02_08": {
+    "title": "大家离开以后还有面包",
+    "background": "road_evening",
+    "date": "2025-12-19",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 929
+  },
+  "a02_12": {
+    "title": "睡前最后一件行李",
+    "background": "bedroom",
+    "date": "2025-12-19",
+    "period": "night",
+    "actors": [],
+    "music": "night",
+    "chapter": "a02",
+    "source": "story/akari.rpy",
+    "line": 965,
+    "phone": "a"
+  },
+  "a03_01": {
+    "title": "约会这个词的重量",
+    "background": "station_hall",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 999
+  },
+  "a03_02": {
+    "title": "小科学馆的第一层",
+    "background": "small_museum",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1038
+  },
+  "a03_03": {
+    "title": "选一个先听的声音",
+    "background": "small_museum",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1071
+  },
+  "a03_04": {
+    "title": "一只不太完整的万花筒",
+    "background": "small_museum",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "smile"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1122
+  },
+  "a03_11": {
+    "title": "十六格里跑不完的猫",
+    "background": "small_museum",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1156
+  },
+  "a03_05": {
+    "title": "不负责答对的参观者",
+    "background": "small_museum",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1208
+  },
+  "a03_06": {
+    "title": "菜单上没有的称呼",
+    "background": "cafe",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1241
+  },
+  "a03_12": {
+    "title": "超市门口的三种口味",
+    "background": "arcade",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1287
+  },
+  "a03_07": {
+    "title": "风很大，书店很暖",
+    "background": "bookshop",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1340
+  },
+  "a03_08": {
+    "title": "一个人份的纪念品",
+    "background": "road_evening",
+    "date": "2026-01-11",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1378
+  },
+  "a03_09": {
+    "title": "到站之前的半只手",
+    "background": "platform",
+    "date": "2026-01-11",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1408
+  },
+  "a03_10": {
+    "title": "下一次不是反馈",
+    "background": "corridor",
+    "date": "2026-01-13",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a03",
+    "source": "story/akari.rpy",
+    "line": 1439
+  },
+  "a04_01": {
+    "title": "没有提前公布的分数",
+    "background": "classroom",
+    "date": "2026-01-23",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1471
+  },
+  "a04_02": {
+    "title": "纸盒旁边的空椅子",
+    "background": "club",
+    "date": "2026-01-23",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1492
+  },
+  "a04_03": {
+    "title": "早了十二分钟的约见",
+    "background": "station_hall",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1525
+  },
+  "a04_04": {
+    "title": "走到有阳光的一边",
+    "background": "riverside",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1549
+  },
+  "a04_05": {
+    "title": "第一个被说出口的名字",
+    "background": "riverside",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1606
+  },
+  "a04_06": {
+    "title": "两人份的第一顿饭",
+    "background": "cafe",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "smile"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1634
+  },
+  "a04_11": {
+    "title": "一张可以贴歪的合照",
+    "background": "arcade",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1674
+  },
+  "a04_07": {
+    "title": "别人知道之后",
+    "background": "arcade",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1726
+  },
+  "a04_08": {
+    "title": "米袋上楼以后",
+    "background": "home_entry",
+    "date": "2026-01-25",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1755
+  },
+  "a04_09": {
+    "title": "客厅里的普通问题",
+    "background": "akari_home",
+    "date": "2026-01-25",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1775
+  },
+  "a04_10": {
+    "title": "楼下十五分钟",
+    "background": "road_evening",
+    "date": "2026-01-25",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1802
+  },
+  "a04_12": {
+    "title": "星期一也可以坐一起",
+    "background": "classroom",
+    "date": "2026-01-26",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1835
+  },
+  "a04_13": {
+    "title": "两条还没选好的路",
+    "background": "library",
+    "date": "2026-01-28",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a04",
+    "source": "story/akari.rpy",
+    "line": 1866
+  },
+  "a05_01": {
+    "title": "只带想听的东西",
+    "background": "platform_day",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 1903
+  },
+  "a05_02": {
+    "title": "沿海线的星期六",
+    "background": "train_day",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 1924
+  },
+  "a05_03": {
+    "title": "市场里很长的一圈",
+    "background": "arcade",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 1955
+  },
+  "a05_04": {
+    "title": "海边没有安排表",
+    "background": "seawall",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 1986
+  },
+  "a05_05": {
+    "title": "第一次没有跟上拍子",
+    "background": "seawall",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2028
+  },
+  "a05_06": {
+    "title": "冷掉一半的饼干",
+    "background": "seawall",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "smile"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2058
+  },
+  "a05_07": {
+    "title": "下午三点吃的午饭",
+    "background": "cafe",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2092
+  },
+  "a05_13": {
+    "title": "窗边那盒旧游戏",
+    "background": "cafe",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2122
+  },
+  "a05_08": {
+    "title": "回程前再走一条街",
+    "background": "bookshop",
+    "date": "2026-02-07",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2184
+  },
+  "a05_09": {
+    "title": "到家之后的声音",
+    "background": "bedroom",
+    "date": "2026-02-07",
+    "period": "night",
+    "actors": [],
+    "music": "night",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2207,
+    "phone": "a"
+  },
+  "a05_10": {
+    "title": "星期天从洗菜开始",
+    "background": "akari_home",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2239
+  },
+  "a05_11": {
+    "title": "等汤凉的十分钟",
+    "background": "akari_home",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2275
+  },
+  "a05_12": {
+    "title": "这次只送到转角",
+    "background": "road_day",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a05",
+    "source": "story/akari.rpy",
+    "line": 2297
+  },
+  "a06_01": {
+    "title": "一枚总会慢半拍的旋钮",
+    "background": "repair_room",
+    "date": "2026-02-18",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2334
+  },
+  "a06_11": {
+    "title": "十七分钟里没说完的晚饭",
+    "background": "train_night",
+    "date": "2026-02-18",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2364
+  },
+  "a06_02": {
+    "title": "写上三月十五日以后",
+    "background": "club",
+    "date": "2026-02-20",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2400
+  },
+  "a06_03": {
+    "title": "退掉的两人座位",
+    "background": "bedroom",
+    "date": "2026-02-21",
+    "period": "day",
+    "actors": [],
+    "music": "waiting",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2424,
+    "phone": "a"
+  },
+  "a06_04": {
+    "title": "她没有看向我的那一刻",
+    "background": "repair_room",
+    "date": "2026-02-23",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2456
+  },
+  "a06_05": {
+    "title": "课间没有自动空出来",
+    "background": "classroom",
+    "date": "2026-02-24",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2493
+  },
+  "a06_12": {
+    "title": "不是替她空着的下午",
+    "background": "classroom",
+    "date": "2026-02-25",
+    "period": "evening",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2517
+  },
+  "a06_06": {
+    "title": "纸箱两边的人",
+    "background": "club",
+    "date": "2026-02-26",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ],
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2552
+  },
+  "a06_07": {
+    "title": "不是请假的星期六",
+    "background": "road_day",
+    "date": "2026-02-28",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2574
+  },
+  "a06_08": {
+    "title": "一张没有要求回复的照片",
+    "background": "bedroom",
+    "date": "2026-03-01",
+    "period": "night",
+    "actors": [],
+    "music": "night",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2608,
+    "phone": "a"
+  },
+  "a06_13": {
+    "title": "留在旧架旁边的位置",
+    "background": "classroom",
+    "date": "2026-03-02",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "resolve",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2631
+  },
+  "a06_09": {
+    "title": "月亮被楼挡住之前",
+    "background": "bedroom",
+    "date": "2026-03-03",
+    "period": "evening",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2662,
+    "phone": "a"
+  },
+  "a06_10": {
+    "title": "下一次见面的地址",
+    "background": "corridor",
+    "date": "2026-03-04",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "a06",
+    "source": "story/akari.rpy",
+    "line": 2712
+  },
+  "a07_01": {
+    "title": "五点二十一分的消息",
+    "background": "classroom",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [],
+    "music": "waiting",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2735
+  },
+  "a07_02": {
+    "title": "她真的站在站口",
+    "background": "station_hall",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2746
+  },
+  "a07_03": {
+    "title": "不是检查的客人",
+    "background": "akari_home",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2766
+  },
+  "a07_04": {
+    "title": "汤不会等人想明白",
+    "background": "akari_home",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2811
+  },
+  "a07_05": {
+    "title": "不再借到上车为止",
+    "background": "road_evening",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2837
+  },
+  "a07_06": {
+    "title": "午饭要凉了",
+    "background": "classroom",
+    "date": "2026-03-10",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2858
+  },
+  "a07_13": {
+    "title": "每人一边的自习桌",
+    "background": "library",
+    "date": "2026-03-10",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2880
+  },
+  "a07_07": {
+    "title": "井上不负责收尾",
+    "background": "corridor",
+    "date": "2026-03-11",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2902
+  },
+  "a07_14": {
+    "title": "电影结束以后还有半小时",
+    "background": "cafe",
+    "date": "2026-03-12",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2923
+  },
+  "a07_16": {
+    "title": "她来看看他的椅子",
+    "background": "bedroom",
+    "date": "2026-03-13",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2958
+  },
+  "a07_08": {
+    "title": "两本不同方向的书",
+    "background": "bookshop",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 2993
+  },
+  "a07_09": {
+    "title": "饺子皮不承认谁比较会",
+    "background": "akari_home",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 3014
+  },
+  "a07_10": {
+    "title": "水开以前的小声商量",
+    "background": "akari_home",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 3043
+  },
+  "a07_15": {
+    "title": "等一锅水开也会无聊",
+    "background": "akari_home",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 3067
+  },
+  "a07_11": {
+    "title": "不是因为做得好才坐近",
+    "background": "akari_home",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 3096
+  },
+  "a07_12": {
+    "title": "雨小一点再走",
+    "background": "home_entry",
+    "date": "2026-03-14",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a07",
+    "source": "story/akari.rpy",
+    "line": 3119,
+    "weather": "rain"
+  },
+  "a08_11": {
+    "title": "周日早晨的公共汽车站",
+    "background": "road_day",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3143
+  },
+  "a08_01": {
+    "title": "十二点四十分的教室",
+    "background": "classroom",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3173
+  },
+  "a08_02": {
+    "title": "先说今天不做什么",
+    "background": "classroom",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ],
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3193
+  },
+  "a08_03": {
+    "title": "先转动的人",
+    "background": "classroom",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3214
+  },
+  "a08_04": {
+    "title": "一个箭头没有说清的事",
+    "background": "classroom",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3241
+  },
+  "a08_05": {
+    "title": "换回旧架的两分钟",
+    "background": "classroom",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3261
+  },
+  "a08_12": {
+    "title": "暂停不是给谁看的",
+    "background": "corridor",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3284
+  },
+  "a08_06": {
+    "title": "轮不到新东西的那一段",
+    "background": "classroom",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ],
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3314
+  },
+  "a08_07": {
+    "title": "没有写满的反馈页",
+    "background": "classroom",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3334
+  },
+  "a08_08": {
+    "title": "老师留下的三项",
+    "background": "repair_room",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "resolve",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3355
+  },
+  "a08_09": {
+    "title": "校门外先不复盘",
+    "background": "school_gate",
+    "date": "2026-03-15",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3377
+  },
+  "a08_14": {
+    "title": "星期一不需要庆功",
+    "background": "noodle_shop",
+    "date": "2026-03-16",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3399
+  },
+  "a08_10": {
+    "title": "正式印出之前再看一眼",
+    "background": "classroom",
+    "date": "2026-03-18",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3441
+  },
+  "a08_15": {
+    "title": "顺路只到桥头",
+    "background": "road_evening",
+    "date": "2026-03-19",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3458
+  },
+  "a08_13": {
+    "title": "公开观测前一天没有星星",
+    "background": "akari_home",
+    "date": "2026-03-20",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a08",
+    "source": "story/akari.rpy",
+    "line": 3483
+  },
+  "a09_01": {
+    "title": "第二天没有集合哨",
+    "background": "road_day",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3522
+  },
+  "a09_02": {
+    "title": "她从别人的照片前走过",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3543
+  },
+  "a09_03": {
+    "title": "观众也可以只说一句",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3564
+  },
+  "a09_04": {
+    "title": "午饭之后想睡一会儿",
+    "background": "cafe",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3584
+  },
+  "a09_05": {
+    "title": "归位以后仍然有灰",
+    "background": "club",
+    "date": "2026-03-23",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3607
+  },
+  "a09_06": {
+    "title": "春假前的两张纸",
+    "background": "classroom",
+    "date": "2026-03-25",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3629
+  },
+  "a09_07": {
+    "title": "他想逛的那一层",
+    "background": "bookshop",
+    "date": "2026-03-26",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3645
+  },
+  "a09_08": {
+    "title": "两点之后没有必须去哪",
+    "background": "riverside",
+    "date": "2026-03-26",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3672
+  },
+  "a09_09": {
+    "title": "小册子的第一条线",
+    "background": "akari_home",
+    "date": "2026-03-27",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3697
+  },
+  "a09_10": {
+    "title": "有人在自己的那边忙",
+    "background": "akari_home",
+    "date": "2026-03-27",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3725
+  },
+  "a09_11": {
+    "title": "没有女朋友参加的胜负",
+    "background": "bedroom",
+    "date": "2026-03-28",
+    "period": "day",
+    "actors": [],
+    "music": "playful",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3749
+  },
+  "a09_12": {
+    "title": "表弟认识新称呼",
+    "background": "akari_home",
+    "date": "2026-03-29",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3780
+  },
+  "a09_13": {
+    "title": "没有抢着把最后一块拼上",
+    "background": "road_day",
+    "date": "2026-03-29",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3808
+  },
+  "a09_16": {
+    "title": "旧纸箱里的直线朋友",
+    "background": "kitchen",
+    "date": "2026-03-30",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3830
+  },
+  "a09_14": {
+    "title": "她自己留下的两毫米",
+    "background": "akari_home",
+    "date": "2026-03-30",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3847
+  },
+  "a09_15": {
+    "title": "这次一起订的位置",
+    "background": "cafe",
+    "date": "2026-03-31",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3869
+  },
+  "a09_17": {
+    "title": "她只笑最奇怪的那格",
+    "background": "bedroom",
+    "date": "2026-03-31",
+    "period": "night",
+    "actors": [],
+    "music": "night",
+    "chapter": "a09",
+    "source": "story/akari.rpy",
+    "line": 3901,
+    "phone": "a"
+  },
+  "a10_01": {
+    "title": "三年级的第一块黑板",
+    "background": "classroom",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 3924
+  },
+  "a10_02": {
+    "title": "新楼层也找得到的人",
+    "background": "corridor",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 3940
+  },
+  "a10_03": {
+    "title": "八个人和几把临时椅子",
+    "background": "club",
+    "date": "2026-04-06",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ],
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 3964
+  },
+  "a10_04": {
+    "title": "学姐可以回答不知道",
+    "background": "repair_room",
+    "date": "2026-04-06",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 3981
+  },
+  "a10_05": {
+    "title": "第一次被叫成前辈以后",
+    "background": "stairwell",
+    "date": "2026-04-06",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "smile"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4000
+  },
+  "a10_06": {
+    "title": "没有耳机的午休",
+    "background": "classroom",
+    "date": "2026-04-07",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4018
+  },
+  "a10_07": {
+    "title": "新资料不会自己变薄",
+    "background": "library",
+    "date": "2026-04-08",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4035
+  },
+  "a10_08": {
+    "title": "家里的布丁不按年级分",
+    "background": "akari_home",
+    "date": "2026-04-09",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4053
+  },
+  "a10_09": {
+    "title": "井上的午饭也要趁热",
+    "background": "classroom",
+    "date": "2026-04-10",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4074
+  },
+  "a10_10": {
+    "title": "星期六先过自己的关",
+    "background": "bedroom",
+    "date": "2026-04-11",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4095
+  },
+  "a10_11": {
+    "title": "不用比谁更早的早上",
+    "background": "station_hall",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4112
+  },
+  "a10_12": {
+    "title": "今天轮到他选第一首",
+    "background": "train_day",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4131
+  },
+  "a10_13": {
+    "title": "这次先吃完再去海边",
+    "background": "arcade",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4152
+  },
+  "a10_14": {
+    "title": "书页翻过一阵海风",
+    "background": "seawall",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4176
+  },
+  "a10_15": {
+    "title": "海边还可以走另一条路",
+    "background": "seawall",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4213
+  },
+  "a10_16": {
+    "title": "下一张票的时间",
+    "background": "cafe",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4236
+  },
+  "a10_17": {
+    "title": "回家的车也有空位",
+    "background": "train_day",
+    "date": "2026-04-12",
+    "period": "evening",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4264
+  },
+  "a10_18": {
+    "title": "日历只先圈下一格",
+    "background": "bedroom",
+    "date": "2026-04-12",
+    "period": "night",
+    "actors": [],
+    "music": "ending",
+    "chapter": "a10",
+    "source": "story/akari.rpy",
+    "line": 4292,
+    "phone": "a"
+  },
+  "c01_01": {
+    "title": "千夏 / 周六先空出来",
+    "background": "club",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c01",
+    "source": "story/chinatsu.rpy",
+    "line": 5
+  },
+  "c01_02": {
+    "title": "千夏 / 路上那一点慢",
+    "background": "road_day",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c01",
+    "source": "story/chinatsu.rpy",
+    "line": 71
+  },
+  "c01_03": {
+    "title": "千夏 / 书架的第三层",
+    "background": "bookshop",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c01",
+    "source": "story/chinatsu.rpy",
+    "line": 124
+  },
+  "c01_04": {
+    "title": "千夏 / 请你先看这里",
+    "background": "riverside",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c01",
+    "source": "story/chinatsu.rpy",
+    "line": 183
+  },
+  "c01_05": {
+    "title": "千夏 / 还没吃完就问下一次",
+    "background": "cafe",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c01",
+    "source": "story/chinatsu.rpy",
+    "line": 229
+  },
+  "c01_06": {
+    "title": "千夏 / 多走的那十分钟",
+    "background": "road_day",
+    "date": "2025-12-06",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c01",
+    "source": "story/chinatsu.rpy",
+    "line": 306
+  },
+  "c01_07": {
+    "title": "千夏 / 没有发过来的那张",
+    "background": "bedroom",
+    "date": "2025-12-06",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c01",
+    "source": "story/chinatsu.rpy",
+    "line": 350,
+    "camera": false,
+    "phone": "c"
+  },
+  "c01_08": {
+    "title": "千夏 / 周一不能装作没发生",
+    "background": "classroom",
+    "date": "2025-12-08",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c01",
+    "source": "story/chinatsu.rpy",
+    "line": 380
+  },
+  "c02_01": {
+    "title": "千夏 / 没拍成之前",
+    "background": "club",
+    "date": "2025-12-12",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "c02",
+    "source": "story/chinatsu.rpy",
+    "line": 453
+  },
+  "c02_02": {
+    "title": "千夏 / 关到一半的卷帘门",
+    "background": "road_evening",
+    "date": "2025-12-12",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "c02",
+    "source": "story/chinatsu.rpy",
+    "line": 498
+  },
+  "c02_03": {
+    "title": "千夏 / 留在屏幕上的那一点",
+    "background": "cafe",
+    "date": "2025-12-12",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "puzzled"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c02",
+    "source": "story/chinatsu.rpy",
+    "line": 543
+  },
+  "c02_04": {
+    "title": "千夏 / 拍她的时候",
+    "background": "road_evening",
+    "date": "2025-12-12",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c02",
+    "source": "story/chinatsu.rpy",
+    "line": 605
+  },
+  "c02_05": {
+    "title": "千夏 / 同一张桌子的两边",
+    "background": "club",
+    "date": "2025-12-14",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ],
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c02",
+    "source": "story/chinatsu.rpy",
+    "line": 649
+  },
+  "c02_06": {
+    "title": "千夏 / 没法装成随便问问",
+    "background": "road_day",
+    "date": "2025-12-14",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c02",
+    "source": "story/chinatsu.rpy",
+    "line": 704
+  },
+  "c02_07": {
+    "title": "千夏 / 下周带去的东西",
+    "background": "club",
+    "date": "2025-12-19",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "c02",
+    "source": "story/chinatsu.rpy",
+    "line": 753
+  },
+  "c03_01": {
+    "title": "千夏 / 去邻市以前",
+    "background": "corridor",
+    "date": "2026-01-09",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 804
+  },
+  "c03_02": {
+    "title": "千夏 / 从另一个门出来",
+    "background": "station_hall",
+    "date": "2026-01-10",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 835
+  },
+  "c03_03": {
+    "title": "千夏 / 她讲话时我坐在旁边",
+    "background": "workshop",
+    "date": "2026-01-10",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 863
+  },
+  "c03_04": {
+    "title": "千夏 / 台阶上的两分钟",
+    "background": "stairwell",
+    "date": "2026-01-10",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 914
+  },
+  "c03_05": {
+    "title": "千夏 / 谁先翻到下一页",
+    "background": "workshop",
+    "date": "2026-01-10",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 965
+  },
+  "c03_06": {
+    "title": "千夏 / 两份午饭还不够早",
+    "background": "cafe",
+    "date": "2026-01-10",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 1009
+  },
+  "c03_07": {
+    "title": "千夏 / 回去的那班慢车",
+    "background": "platform_day",
+    "date": "2026-01-10",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 1048
+  },
+  "c03_08": {
+    "title": "千夏 / 等她把头发拨出来",
+    "background": "train_night",
+    "date": "2026-01-10",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 1073
+  },
+  "c03_09": {
+    "title": "千夏 / 今天先不评价好不好",
+    "background": "bedroom",
+    "date": "2026-01-10",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c03",
+    "source": "story/chinatsu.rpy",
+    "line": 1103,
+    "camera": false,
+    "phone": "c"
+  },
+  "c04_01": {
+    "title": "千夏 / 先问下一个周日",
+    "background": "classroom",
+    "date": "2026-01-16",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1139
+  },
+  "c04_02": {
+    "title": "千夏 / 下课带回来的四张",
+    "background": "bedroom",
+    "date": "2026-01-17",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1173,
+    "camera": false,
+    "phone": "c"
+  },
+  "c04_03": {
+    "title": "千夏 / 预约不是工作表",
+    "background": "club",
+    "date": "2026-01-23",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1219
+  },
+  "c04_04": {
+    "title": "千夏 / 一点半的人",
+    "background": "platform_day",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1251
+  },
+  "c04_05": {
+    "title": "千夏 / 玻璃里比外面暖",
+    "background": "greenhouse",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1286
+  },
+  "c04_06": {
+    "title": "千夏 / 没有照片也说得完",
+    "background": "cafe",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1340
+  },
+  "c04_07": {
+    "title": "千夏 / 今天想约的人",
+    "background": "road_day",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1368
+  },
+  "c04_08": {
+    "title": "千夏 / 回去的时候不要坐开",
+    "background": "platform_day",
+    "date": "2026-01-25",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1424
+  },
+  "c04_09": {
+    "title": "千夏 / 多送的一段",
+    "background": "road_evening",
+    "date": "2026-01-25",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1452
+  },
+  "c04_10": {
+    "title": "千夏 / 星期一的称呼",
+    "background": "corridor",
+    "date": "2026-01-26",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c04",
+    "source": "story/chinatsu.rpy",
+    "line": 1483
+  },
+  "c05_01": {
+    "title": "千夏 / 交往以后也会算错时间",
+    "background": "classroom",
+    "date": "2026-02-06",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1523
+  },
+  "c05_02": {
+    "title": "千夏 / 先做自己的那一半",
+    "background": "club",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1561
+  },
+  "c05_03": {
+    "title": "千夏 / 等到她真的下车",
+    "background": "station_hall",
+    "date": "2026-02-07",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1579
+  },
+  "c05_04b": {
+    "title": "千夏 / 这次睡够了",
+    "background": "arcade",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1628,
+    "camera": false
+  },
+  "c05_04a": {
+    "title": "千夏 / 先看你玩",
+    "background": "arcade",
+    "date": "2026-02-07",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1636
+  },
+  "c05_05b": {
+    "title": "千夏 / 没夹到也算今天",
+    "background": "arcade",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1676,
+    "camera": false
+  },
+  "c05_05a": {
+    "title": "千夏 / 没夹到也算今天",
+    "background": "arcade",
+    "date": "2026-02-07",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1678
+  },
+  "c05_06b": {
+    "title": "千夏 / 不急着找车",
+    "background": "road_evening",
+    "date": "2026-02-08",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1713,
+    "camera": false
+  },
+  "c05_06a": {
+    "title": "千夏 / 不急着找车",
+    "background": "road_evening",
+    "date": "2026-02-07",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1715
+  },
+  "c05_07b": {
+    "title": "千夏 / 今天没有用来补昨天",
+    "background": "platform_day",
+    "date": "2026-02-08",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1757,
+    "camera": false
+  },
+  "c05_07a": {
+    "title": "千夏 / 原来一局这么长",
+    "background": "platform_day",
+    "date": "2026-02-07",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1767
+  },
+  "c05_08": {
+    "title": "千夏 / 星期一的小口袋",
+    "background": "corridor",
+    "date": "2026-02-09",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1789
+  },
+  "c05_09": {
+    "title": "千夏 / 提前一天也不是顺便",
+    "background": "corridor",
+    "date": "2026-02-13",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1817
+  },
+  "c05_10": {
+    "title": "千夏 / 盒子里面那一块",
+    "background": "bedroom",
+    "date": "2026-02-13",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c05",
+    "source": "story/chinatsu.rpy",
+    "line": 1848,
+    "camera": false,
+    "phone": "c"
+  },
+  "c06_01": {
+    "title": "千夏 / 说好的四张",
+    "background": "club",
+    "date": "2026-02-18",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c06",
+    "source": "story/chinatsu.rpy",
+    "line": 1877
+  },
+  "c06_02": {
+    "title": "千夏 / 以为还有一小时",
+    "background": "classroom",
+    "date": "2026-02-19",
+    "period": "day",
+    "actors": [],
+    "music": "waiting",
+    "chapter": "c06",
+    "source": "story/chinatsu.rpy",
+    "line": 1915
+  },
+  "c06_03": {
+    "title": "千夏 / 五点以后的位置",
+    "background": "cafe",
+    "date": "2026-02-19",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "c06",
+    "source": "story/chinatsu.rpy",
+    "line": 1943
+  },
+  "c06_04": {
+    "title": "千夏 / 不知道该发哪一句",
+    "background": "bedroom",
+    "date": "2026-02-19",
+    "period": "night",
+    "actors": [],
+    "music": "distance",
+    "chapter": "c06",
+    "source": "story/chinatsu.rpy",
+    "line": 1991
+  },
+  "c06_05": {
+    "title": "千夏 / 中午没有先留的位置",
+    "background": "corridor",
+    "date": "2026-02-20",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c06",
+    "source": "story/chinatsu.rpy",
+    "line": 2014
+  },
+  "c06_06": {
+    "title": "千夏 / 还得说清楚的那一点",
+    "background": "bedroom",
+    "date": "2026-02-21",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c06",
+    "source": "story/chinatsu.rpy",
+    "line": 2045,
+    "camera": false,
+    "phone": "c"
+  },
+  "c06_07": {
+    "title": "千夏 / 不把手伸得太快",
+    "background": "riverside",
+    "date": "2026-02-22",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "c06",
+    "source": "story/chinatsu.rpy",
+    "line": 2094,
+    "camera": false
+  },
+  "c07_01": {
+    "title": "千夏 / 少掉一把椅子以后",
+    "background": "club",
+    "date": "2026-03-07",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2137
+  },
+  "c07_02": {
+    "title": "千夏 / 等的是这个人",
+    "background": "road_day",
+    "date": "2026-03-07",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2168
+  },
+  "c07_03": {
+    "title": "千夏 / 这次轮到我摊开",
+    "background": "workshop",
+    "date": "2026-03-08",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2202
+  },
+  "c07_04": {
+    "title": "千夏 / 你刚才讲得很起劲",
+    "background": "road_day",
+    "date": "2026-03-08",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2238
+  },
+  "c07_05": {
+    "title": "千夏 / 翻错的那一本",
+    "background": "bookshop",
+    "date": "2026-03-08",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2273
+  },
+  "c07_06": {
+    "title": "千夏 / 明天带自己的那份",
+    "background": "cafe",
+    "date": "2026-03-08",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2307
+  },
+  "c07_07": {
+    "title": "千夏 / 这个周一各有事情",
+    "background": "classroom",
+    "date": "2026-03-09",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2339
+  },
+  "c07_08": {
+    "title": "千夏 / 走进她家以前",
+    "background": "road_evening",
+    "date": "2026-03-10",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2367
+  },
+  "c07_09": {
+    "title": "千夏 / 她家的饭桌",
+    "background": "kitchen",
+    "date": "2026-03-10",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2388,
+    "camera": false
+  },
+  "c07_10": {
+    "title": "千夏 / 不是等做完才给她看",
+    "background": "chinatsu_room",
+    "date": "2026-03-10",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2423,
+    "camera": false
+  },
+  "c07_11": {
+    "title": "千夏 / 路灯下还想多说两句",
+    "background": "road_evening",
+    "date": "2026-03-10",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c07",
+    "source": "story/chinatsu.rpy",
+    "line": 2470,
+    "camera": false
+  },
+  "c08_01": {
+    "title": "千夏 / 照片以外的那一面墙",
+    "background": "classroom",
+    "date": "2026-03-13",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2504
+  },
+  "c08_02": {
+    "title": "千夏 / 周六各走一段",
+    "background": "road_day",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2542
+  },
+  "c08_03": {
+    "title": "千夏 / 她也有自己的上午",
+    "background": "bookshop",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2556
+  },
+  "c08_03w": {
+    "title": "千夏 / 三月十四日的小袋子",
+    "background": "road_day",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2584
+  },
+  "c08_04": {
+    "title": "千夏 / 两张都还没完成",
+    "background": "cafe",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2615
+  },
+  "c08_05": {
+    "title": "千夏 / 地上先放九张",
+    "background": "workshop",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2646
+  },
+  "c08_06": {
+    "title": "千夏 / 不急着把空位填满",
+    "background": "workshop",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "puzzled"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2729
+  },
+  "c08_07": {
+    "title": "千夏 / 那张先别摆到中间",
+    "background": "workshop",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2756
+  },
+  "c08_08": {
+    "title": "千夏 / 照片里的地方其实很普通",
+    "background": "road_day",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2798
+  },
+  "c08_09b": {
+    "title": "千夏 / 这一次我站在她旁边",
+    "background": "road_day",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2817
+  },
+  "c08_09a": {
+    "title": "千夏 / 不用把它变成同一张",
+    "background": "road_day",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2832
+  },
+  "c08_10": {
+    "title": "千夏 / 下午就先放到这里",
+    "background": "workshop",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2846
+  },
+  "c08_11": {
+    "title": "千夏 / 墙上终于有一条路",
+    "background": "workshop",
+    "date": "2026-03-20",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "resolve",
+    "chapter": "c08",
+    "source": "story/chinatsu.rpy",
+    "line": 2863
+  },
+  "c09_01": {
+    "title": "千夏 / 这次从正门进",
+    "background": "station_hall",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 2899
+  },
+  "c09_02": {
+    "title": "千夏 / 走到最后三张",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 2922
+  },
+  "c09_03": {
+    "title": "千夏 / 她已经站在自己的旁边",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 2961
+  },
+  "c09_04": {
+    "title": "千夏 / 不同的人先看见不同的",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 2990
+  },
+  "c09_05": {
+    "title": "千夏 / 箱子真的换了位置",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3018
+  },
+  "c09_06": {
+    "title": "千夏 / 吃饭也有人来叫她",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3042
+  },
+  "c09_07": {
+    "title": "千夏 / 她想让我也有一张",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3064
+  },
+  "c09_08": {
+    "title": "千夏 / 最后一位没有走得很快",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3092
+  },
+  "c09_09": {
+    "title": "千夏 / 从第一张开始收",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3111
+  },
+  "c09_10": {
+    "title": "千夏 / 走到门外以后",
+    "background": "road_evening",
+    "date": "2026-03-22",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3138,
+    "camera": false
+  },
+  "c09_11": {
+    "title": "千夏 / 第二天没有展示墙",
+    "background": "corridor",
+    "date": "2026-03-23",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3171
+  },
+  "c09_12": {
+    "title": "千夏 / 普通的周日也会等人",
+    "background": "bookshop",
+    "date": "2026-03-29",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3200,
+    "camera": false
+  },
+  "c09_13": {
+    "title": "千夏 / 一起把后面翻完",
+    "background": "riverside",
+    "date": "2026-03-29",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c09",
+    "source": "story/chinatsu.rpy",
+    "line": 3215,
+    "camera": false
+  },
+  "c10_01": {
+    "title": "千夏 / 新学期先找错一次",
+    "background": "corridor",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3242,
+    "camera": false
+  },
+  "c10_02": {
+    "title": "千夏 / 新书下面夹着的",
+    "background": "classroom",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3268
+  },
+  "c10_03": {
+    "title": "千夏 / 这次不用一直站在镜头后",
+    "background": "club",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "smile"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3284,
+    "camera": false
+  },
+  "c10_04": {
+    "title": "千夏 / 别人不一定看见同一条路",
+    "background": "classroom",
+    "date": "2026-04-08",
+    "period": "day",
+    "actors": [],
+    "music": "waiting",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3304
+  },
+  "c10_05": {
+    "title": "千夏 / 她也有看不懂的地方",
+    "background": "club",
+    "date": "2026-04-08",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3320,
+    "camera": false
+  },
+  "c10_06": {
+    "title": "千夏 / 纸盒里的那两张",
+    "background": "bedroom",
+    "date": "2026-04-09",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3346,
+    "camera": false,
+    "phone": "c"
+  },
+  "c10_07": {
+    "title": "千夏 / 回家先把那一关过完",
+    "background": "classroom",
+    "date": "2026-04-10",
+    "period": "day",
+    "actors": [],
+    "music": "playful",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3369
+  },
+  "c10_08": {
+    "title": "千夏 / 这次由我先问路",
+    "background": "station_hall",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3391,
+    "camera": false
+  },
+  "c10_09": {
+    "title": "千夏 / 坐在自己想听的那一排",
+    "background": "library",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3410,
+    "camera": false
+  },
+  "c10_10": {
+    "title": "千夏 / 换她问我看见什么",
+    "background": "cafe",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3432,
+    "camera": false
+  },
+  "c10_11": {
+    "title": "千夏 / 回程先挑能坐的",
+    "background": "train_day",
+    "date": "2026-04-12",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3463,
+    "camera": false
+  },
+  "c10_12": {
+    "title": "千夏 / 放到别人也能拿到的地方",
+    "background": "club",
+    "date": "2026-04-13",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3486,
+    "camera": false
+  },
+  "c10_13": {
+    "title": "千夏 / 留到下一张",
+    "background": "school_gate",
+    "date": "2026-04-13",
+    "period": "evening",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "smile"
+      ]
+    ],
+    "music": "ending",
+    "chapter": "c10",
+    "source": "story/chinatsu.rpy",
+    "line": 3505,
+    "camera": false
+  },
+  "g06_saturday": {
+    "title": "没有排进值日表的时间",
+    "background": "club",
+    "date": "2025-11-29",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "g06",
+    "source": "story/common_choice.rpy",
+    "line": 3
+  },
+  "g06_budget": {
+    "title": "空白那页要留给什么",
+    "background": "club",
+    "date": "2025-11-29",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g06",
+    "source": "story/common_choice.rpy",
+    "line": 38
+  },
+  "g06_four_plans": {
+    "title": "说到一半的周末",
+    "background": "club",
+    "date": "2025-11-29",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "g06",
+    "source": "story/common_choice.rpy",
+    "line": 62
+  },
+  "g06_phone": {
+    "title": "下一次想见的人",
+    "background": "bedroom",
+    "date": "2025-11-30",
+    "period": "night",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "g06",
+    "source": "story/common_choice.rpy",
+    "line": 92
+  },
+  "g04_01": {
+    "title": "下雨也来的人",
+    "background": "club",
+    "date": "2025-11-11",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g04",
+    "source": "story/common_g04.rpy",
+    "line": 3,
+    "weather": "rain"
+  },
+  "g04_02": {
+    "title": "这次还没找到",
+    "background": "roof",
+    "date": "2025-11-14",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "g04",
+    "source": "story/common_g04.rpy",
+    "line": 49
+  },
+  "g04_after_search": {
+    "title": "先把手暖过来",
+    "background": "club",
+    "date": "2025-11-14",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "g04",
+    "source": "story/common_g04.rpy",
+    "line": 80
+  },
+  "g04_revised_page": {
+    "title": "没找到也留一页",
+    "background": "club",
+    "date": "2025-11-17",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g04",
+    "source": "story/common_g04.rpy",
+    "line": 85
+  },
+  "g04_rain_stop": {
+    "title": "雨停以后的楼梯",
+    "background": "stairwell",
+    "date": "2025-11-18",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "g04",
+    "source": "story/common_g04.rpy",
+    "line": 120
+  },
+  "g05_01": {
+    "title": "空着的那一格",
+    "background": "club",
+    "date": "2025-11-26",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 3
+  },
+  "g05_02": {
+    "title": "星期五之前",
+    "background": "club",
+    "date": "2025-11-26",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 48
+  },
+  "g05_03": {
+    "title": "今天看月亮",
+    "background": "roof",
+    "date": "2025-11-28",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ],
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 65
+  },
+  "g05_04": {
+    "title": "她自己的那一页",
+    "background": "roof",
+    "date": "2025-11-28",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 106
+  },
+  "g05_return_scope": {
+    "title": "借来的那一套",
+    "background": "repair_room",
+    "date": "2025-11-28",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 129,
+    "camera": false
+  },
+  "g05_cleaning": {
+    "title": "收好以后才想起来",
+    "background": "club",
+    "date": "2025-11-28",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 133
+  },
+  "g05_05": {
+    "title": "回去的路",
+    "background": "road_evening",
+    "date": "2025-11-28",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 177
+  },
+  "g05_gate": {
+    "title": "进站口的两张纸",
+    "background": "station_hall",
+    "date": "2025-11-28",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 198
+  },
+  "g05_station_message": {
+    "title": "走到车站再说",
+    "background": "platform",
+    "date": "2025-11-28",
+    "period": "night",
+    "actors": [
+      [
+        "c",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "g05",
+    "source": "story/common_g05.rpy",
+    "line": 207
+  },
+  "g03_wrong_map": {
+    "title": "四个人看同一张图",
+    "background": "club",
+    "date": "2025-11-04",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g03",
+    "source": "story/common_methods.rpy",
+    "line": 3
+  },
+  "g03_magazine": {
+    "title": "不是所有空白都要填满",
+    "background": "classroom",
+    "date": "2025-11-05",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "g03",
+    "source": "story/common_methods.rpy",
+    "line": 52
+  },
+  "g03_rin_friends": {
+    "title": "她想请来的人",
+    "background": "corridor",
+    "date": "2025-11-07",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "g03",
+    "source": "story/common_methods.rpy",
+    "line": 83
+  },
+  "g03_library_door": {
+    "title": "闭馆前的二十分钟",
+    "background": "library",
+    "date": "2025-11-07",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "g03",
+    "source": "story/common_methods.rpy",
+    "line": 111
+  },
+  "g03_tripod": {
+    "title": "别只盯着气泡",
+    "background": "repair_room",
+    "date": "2025-11-09",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "g03",
+    "source": "story/common_methods.rpy",
+    "line": 139
+  },
+  "g01_01": {
+    "title": "部室准备",
+    "background": "club",
+    "date": "2025-10-24",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 4,
+    "camera": false
+  },
+  "g01_bolts": {
+    "title": "不在海报上的两个人",
+    "background": "club",
+    "date": "2025-10-24",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 78,
+    "camera": false
+  },
+  "g01_02": {
+    "title": "开始之前",
+    "background": "club",
+    "date": "2025-10-24",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 162,
+    "camera": false
+  },
+  "g01_03": {
+    "title": "屋顶观测",
+    "background": "roof",
+    "date": "2025-10-24",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 216,
+    "camera": false
+  },
+  "g01_04": {
+    "title": "等云",
+    "background": "roof",
+    "date": "2025-10-24",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 278
+  },
+  "g01_05": {
+    "title": "看见了吗",
+    "background": "roof",
+    "date": "2025-10-24",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 335
+  },
+  "g01_06": {
+    "title": "观测记录",
+    "background": "stairwell",
+    "date": "2025-10-24",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 405,
+    "camera": false
+  },
+  "g01_07": {
+    "title": "收拾之后",
+    "background": "club",
+    "date": "2025-10-24",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 432,
+    "camera": false
+  },
+  "g01_08": {
+    "title": "散场归途",
+    "background": "road_autumn",
+    "date": "2025-10-24",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 460,
+    "camera": false
+  },
+  "g01_last_bus": {
+    "title": "最后一班车还早",
+    "background": "platform",
+    "date": "2025-10-24",
+    "period": "night",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "g01",
+    "source": "story/common_opening.rpy",
+    "line": 525
+  },
+  "g02_01": {
+    "title": "还没还的东西",
+    "background": "club",
+    "date": "2025-10-27",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g02",
+    "source": "story/common_second.rpy",
+    "line": 3
+  },
+  "g02_02": {
+    "title": "柜子里的一叠纸",
+    "background": "club",
+    "date": "2025-10-27",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g02",
+    "source": "story/common_second.rpy",
+    "line": 57
+  },
+  "g02_03": {
+    "title": "留下来的位置",
+    "background": "club",
+    "date": "2025-10-27",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g02",
+    "source": "story/common_second.rpy",
+    "line": 112
+  },
+  "g02_ninth_name": {
+    "title": "第九个人",
+    "background": "club",
+    "date": "2025-10-27",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "smile"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g02",
+    "source": "story/common_second.rpy",
+    "line": 156
+  },
+  "g02_drawer": {
+    "title": "抽屉里的灯",
+    "background": "repair_room",
+    "date": "2025-10-29",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "g02",
+    "source": "story/common_second.rpy",
+    "line": 197
+  },
+  "g02_04": {
+    "title": "钥匙在谁那里",
+    "background": "club",
+    "date": "2025-10-30",
+    "period": "day",
+    "actors": [],
+    "music": "club",
+    "chapter": "g02",
+    "source": "story/common_second.rpy",
+    "line": 243
+  },
+  "g02_march": {
+    "title": "三月那一格",
+    "background": "club",
+    "date": "2025-10-31",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "g02",
+    "source": "story/common_second.rpy",
+    "line": 296
+  },
+  "h01_01": {
+    "title": "遥 / 到期以前",
+    "background": "club",
+    "date": "2025-12-04",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 6
+  },
+  "h01_02": {
+    "title": "遥 / 还差两页",
+    "background": "classroom",
+    "date": "2025-12-05",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 61
+  },
+  "h01_03": {
+    "title": "遥 / 星期六的准备",
+    "background": "bedroom",
+    "date": "2025-12-06",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 117,
+    "phone": "h"
+  },
+  "h01_04": {
+    "title": "遥 / 提前一班车",
+    "background": "platform",
+    "date": "2025-12-07",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 154
+  },
+  "h01_05": {
+    "title": "遥 / 不是同一本也可以",
+    "background": "library",
+    "date": "2025-12-07",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 187
+  },
+  "h01_06": {
+    "title": "遥 / 两份午饭",
+    "background": "cafe",
+    "date": "2025-12-07",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 250
+  },
+  "h01_07": {
+    "title": "遥 / 书架后面",
+    "background": "bookshop",
+    "date": "2025-12-07",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 306
+  },
+  "h01_08": {
+    "title": "遥 / 先不要折起来",
+    "background": "riverside",
+    "date": "2025-12-07",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 344
+  },
+  "h01_09": {
+    "title": "遥 / 下一张书签",
+    "background": "platform",
+    "date": "2025-12-07",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 385
+  },
+  "h01_10": {
+    "title": "遥 / 桌边留的位置",
+    "background": "club",
+    "date": "2025-12-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h01",
+    "source": "story/haruka.rpy",
+    "line": 423
+  },
+  "h02_01": {
+    "title": "遥 / 名单之外的一行",
+    "background": "club",
+    "date": "2025-12-10",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 467
+  },
+  "h02_02": {
+    "title": "遥 / 没有约好也碰到",
+    "background": "corridor",
+    "date": "2025-12-11",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 506
+  },
+  "h02_03": {
+    "title": "遥 / 下课以后再讲",
+    "background": "classroom",
+    "date": "2025-12-12",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 548
+  },
+  "h02_04": {
+    "title": "遥 / 另一种周五",
+    "background": "road_evening",
+    "date": "2025-12-12",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 598
+  },
+  "h02_05": {
+    "title": "遥 / 折起来的那一行",
+    "background": "club",
+    "date": "2025-12-15",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 647
+  },
+  "h02_06": {
+    "title": "遥 / 猜错的答案",
+    "background": "classroom",
+    "date": "2025-12-16",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 714
+  },
+  "h02_07": {
+    "title": "遥 / 手套的用处",
+    "background": "road_day",
+    "date": "2025-12-17",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 751
+  },
+  "h02_08": {
+    "title": "遥 / 书里没有写的火候",
+    "background": "kitchen",
+    "date": "2025-12-18",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 789,
+    "phone": "h"
+  },
+  "h02_09": {
+    "title": "遥 / 包还没有装满",
+    "background": "club",
+    "date": "2025-12-19",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 835
+  },
+  "h02_10": {
+    "title": "遥 / 明天见",
+    "background": "school_gate",
+    "date": "2025-12-19",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h02",
+    "source": "story/haruka.rpy",
+    "line": 870
+  },
+  "h03_01": {
+    "title": "遥 / 新年的第一张纸",
+    "background": "club",
+    "date": "2026-01-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 913
+  },
+  "h03_02": {
+    "title": "遥 / 迟到三分钟",
+    "background": "station_hall",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 960
+  },
+  "h03_03": {
+    "title": "遥 / 读出来的那一句",
+    "background": "classroom",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 993
+  },
+  "h03_04": {
+    "title": "遥 / 两个人的答案",
+    "background": "classroom",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 1026
+  },
+  "h03_05": {
+    "title": "遥 / 这次吃热的",
+    "background": "noodle_shop",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 1060
+  },
+  "h03_06": {
+    "title": "遥 / 原来不在北口",
+    "background": "road_day",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 1094
+  },
+  "h03_07": {
+    "title": "遥 / 先低一点",
+    "background": "station_hall",
+    "date": "2026-01-11",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 1133
+  },
+  "h03_08": {
+    "title": "遥 / 到家以后",
+    "background": "bedroom",
+    "date": "2026-01-11",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 1191,
+    "phone": "h"
+  },
+  "h03_09": {
+    "title": "遥 / 最后一页以后",
+    "background": "club",
+    "date": "2026-01-13",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 1225
+  },
+  "h03_10": {
+    "title": "遥 / 下一次不用借口",
+    "background": "school_gate",
+    "date": "2026-01-14",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h03",
+    "source": "story/haruka.rpy",
+    "line": 1257
+  },
+  "h04_01": {
+    "title": "遥 / 第三排靠边",
+    "background": "classroom",
+    "date": "2026-01-18",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1304
+  },
+  "h04_02": {
+    "title": "遥 / 没有勾的那一栏",
+    "background": "corridor",
+    "date": "2026-01-18",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "sad"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1324
+  },
+  "h04_03": {
+    "title": "遥 / 先不吃也可以",
+    "background": "road_day",
+    "date": "2026-01-18",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1356
+  },
+  "h04_04": {
+    "title": "遥 / 不太漂亮的道歉",
+    "background": "club",
+    "date": "2026-01-20",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1383
+  },
+  "h04_05": {
+    "title": "遥 / 也想拿给别人看的东西",
+    "background": "classroom",
+    "date": "2026-01-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1427
+  },
+  "h04_06": {
+    "title": "遥 / 换你慢一点",
+    "background": "workshop",
+    "date": "2026-01-24",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1459
+  },
+  "h04_07": {
+    "title": "遥 / 雨停以前",
+    "background": "road_evening",
+    "date": "2026-01-25",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "rain",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1493,
+    "weather": "rain"
+  },
+  "h04_08": {
+    "title": "遥 / 姓名的另一种念法",
+    "background": "platform",
+    "date": "2026-01-25",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1556
+  },
+  "h04_09": {
+    "title": "遥 / 跟平时一样的星期一",
+    "background": "club",
+    "date": "2026-01-26",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1589
+  },
+  "h04_10": {
+    "title": "遥 / 星期三的门",
+    "background": "club",
+    "date": "2026-01-28",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h04",
+    "source": "story/haruka.rpy",
+    "line": 1610,
+    "phone": "h"
+  },
+  "h05_01": {
+    "title": "遥 / 星期天来吃饭",
+    "background": "club",
+    "date": "2026-02-03",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1635
+  },
+  "h05_02": {
+    "title": "遥 / 你怎么讲了那么久",
+    "background": "corridor",
+    "date": "2026-02-05",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1670
+  },
+  "h05_03": {
+    "title": "遥 / 带过去的东西",
+    "background": "road_day",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1701
+  },
+  "h05_04": {
+    "title": "遥 / 按门铃的人",
+    "background": "road_day",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1740
+  },
+  "h05_04b": {
+    "title": "遥 / 脱下外套以后",
+    "background": "home_entry",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1756
+  },
+  "h05_05": {
+    "title": "遥 / 三个人的份量",
+    "background": "kitchen",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1766
+  },
+  "h05_06": {
+    "title": "遥 / 坐在她家桌边",
+    "background": "kitchen",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1810
+  },
+  "h05_07": {
+    "title": "遥 / 没有带给别人看的那一页",
+    "background": "kitchen",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1837
+  },
+  "h05_08": {
+    "title": "遥 / 两个人都没先走开",
+    "background": "kitchen",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1872
+  },
+  "h05_09": {
+    "title": "遥 / 带走一个盒子",
+    "background": "home_entry",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1914
+  },
+  "h05_09b": {
+    "title": "遥 / 一起走到路口",
+    "background": "road_day",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1923
+  },
+  "h05_10": {
+    "title": "遥 / 已经空了的饭盒",
+    "background": "club",
+    "date": "2026-02-09",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h05",
+    "source": "story/haruka.rpy",
+    "line": 1935
+  },
+  "h06_01": {
+    "title": "遥 / 发过来的那一页",
+    "background": "bedroom",
+    "date": "2026-02-12",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 1964,
+    "phone": "h"
+  },
+  "h06_02": {
+    "title": "遥 / 说得太快",
+    "background": "workshop",
+    "date": "2026-02-14",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 1980
+  },
+  "h06_02b": {
+    "title": "遥 / 这张不是随便拍的",
+    "background": "school_gate",
+    "date": "2026-02-15",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2007
+  },
+  "h06_03": {
+    "title": "遥 / 还没打开的文件",
+    "background": "classroom",
+    "date": "2026-02-16",
+    "period": "day",
+    "actors": [],
+    "music": "waiting",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2032
+  },
+  "h06_04": {
+    "title": "遥 / 已经删掉的那一句",
+    "background": "club",
+    "date": "2026-02-17",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2057
+  },
+  "h06_05": {
+    "title": "遥 / 没有追上的那一班",
+    "background": "platform",
+    "date": "2026-02-17",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2099,
+    "phone": "h"
+  },
+  "h06_06": {
+    "title": "遥 / 这次先做哪一件",
+    "background": "bedroom",
+    "date": "2026-02-17",
+    "period": "night",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2118
+  },
+  "h06_07": {
+    "title": "遥 / 没有去的那间教室",
+    "background": "classroom",
+    "date": "2026-02-18",
+    "period": "evening",
+    "actors": [],
+    "music": "waiting",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2146
+  },
+  "h06_08": {
+    "title": "遥 / 她先给别人看过",
+    "background": "club",
+    "date": "2026-02-20",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2172
+  },
+  "h06_08b": {
+    "title": "遥 / 先打完这一局",
+    "background": "arcade",
+    "date": "2026-02-21",
+    "period": "day",
+    "actors": [],
+    "music": "playful",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2198
+  },
+  "h06_09": {
+    "title": "遥 / 一次很普通的散步",
+    "background": "riverside",
+    "date": "2026-02-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2225
+  },
+  "h06_10": {
+    "title": "遥 / 先不翻到最后",
+    "background": "cafe",
+    "date": "2026-02-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h06",
+    "source": "story/haruka.rpy",
+    "line": 2253
+  },
+  "h07_01": {
+    "title": "遥 / 少了一只杯子",
+    "background": "club",
+    "date": "2026-03-09",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2282
+  },
+  "h07_02": {
+    "title": "遥 / 不想先收起来",
+    "background": "library",
+    "date": "2026-03-09",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2314
+  },
+  "h07_03": {
+    "title": "遥 / 这次是来找我的",
+    "background": "home_entry",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2337
+  },
+  "h07_04": {
+    "title": "遥 / 第一份样刊",
+    "background": "bedroom",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2357
+  },
+  "h07_05": {
+    "title": "遥 / 可以先写下来的方向",
+    "background": "bedroom",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2404
+  },
+  "h07_06": {
+    "title": "遥 / 热水已经凉了",
+    "background": "kitchen",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2431
+  },
+  "h07_07": {
+    "title": "遥 / 不在同一条线上",
+    "background": "station_hall",
+    "date": "2026-03-09",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2453
+  },
+  "h07_08": {
+    "title": "遥 / 读到最后的时候",
+    "background": "bedroom",
+    "date": "2026-03-11",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2483,
+    "phone": "h"
+  },
+  "h07_09": {
+    "title": "遥 / 别人的课表",
+    "background": "corridor",
+    "date": "2026-03-13",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2519
+  },
+  "h07_10": {
+    "title": "遥 / 这次由她带来",
+    "background": "road_evening",
+    "date": "2026-03-13",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "smile"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2537
+  },
+  "h07_11": {
+    "title": "遥 / 一张只做了一半的纸",
+    "background": "classroom",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2579
+  },
+  "h07_12": {
+    "title": "遥 / 回来以后真的讲一点",
+    "background": "station_hall",
+    "date": "2026-03-14",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h07",
+    "source": "story/haruka.rpy",
+    "line": 2599,
+    "phone": "h"
+  },
+  "h08_01": {
+    "title": "遥 / 星期天的校门",
+    "background": "school_gate",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2625
+  },
+  "h08_02": {
+    "title": "遥 / 被切掉的那一行",
+    "background": "club",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2638
+  },
+  "h08_03": {
+    "title": "遥 / 先让她讲完",
+    "background": "roof",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2659
+  },
+  "h08_04": {
+    "title": "遥 / 楼梯里安静一点",
+    "background": "stairwell",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2677
+  },
+  "h08_05": {
+    "title": "遥 / 午后的小休息",
+    "background": "club",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2705
+  },
+  "h08_06": {
+    "title": "遥 / 客人也会问第二遍",
+    "background": "club",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2723
+  },
+  "h08_07": {
+    "title": "遥 / 城镇屋顶的那一点灰",
+    "background": "roof",
+    "date": "2026-03-15",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal",
+        "pose2"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ],
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2743
+  },
+  "h08_08": {
+    "title": "遥 / 最后一个不是她",
+    "background": "club",
+    "date": "2026-03-15",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2768
+  },
+  "h08_09": {
+    "title": "遥 / 不是照片里的颜色",
+    "background": "noodle_shop",
+    "date": "2026-03-15",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2788
+  },
+  "h08_10": {
+    "title": "遥 / 二十二号也要见面",
+    "background": "platform",
+    "date": "2026-03-15",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2816
+  },
+  "h08_11": {
+    "title": "遥 / 淡线也要留下来",
+    "background": "club",
+    "date": "2026-03-17",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2836
+  },
+  "h08_12": {
+    "title": "遥 / 今天先不讲未来",
+    "background": "road_evening",
+    "date": "2026-03-18",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2863,
+    "phone": "h"
+  },
+  "h08_13": {
+    "title": "遥 / 找不到的那张图",
+    "background": "club",
+    "date": "2026-03-20",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2878
+  },
+  "h08_14": {
+    "title": "遥 / 她急起来的时候",
+    "background": "library",
+    "date": "2026-03-20",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "sad"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2895
+  },
+  "h08_15": {
+    "title": "遥 / 还是她自己放的",
+    "background": "club",
+    "date": "2026-03-20",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h08",
+    "source": "story/haruka.rpy",
+    "line": 2916
+  },
+  "h09_01": {
+    "title": "遥 / 第二天下午三点",
+    "background": "station_hall",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 2941
+  },
+  "h09_02": {
+    "title": "遥 / 走到正门的这一次",
+    "background": "road_day",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 2958
+  },
+  "h09_02b": {
+    "title": "遥 / 展览门口",
+    "background": "corridor",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 2967,
+    "camera": false
+  },
+  "h09_03": {
+    "title": "遥 / 不是另一盏灯",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 2978,
+    "camera": false
+  },
+  "h09_04": {
+    "title": "遥 / 她们有自己的话",
+    "background": "workshop",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3003,
+    "camera": false
+  },
+  "h09_05": {
+    "title": "遥 / 把昨天放到今天旁边",
+    "background": "cafe",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3021
+  },
+  "h09_05b": {
+    "title": "遥 / 印在别人那一页旁边",
+    "background": "workshop",
+    "date": "2026-03-24",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3043
+  },
+  "h09_06": {
+    "title": "遥 / 脸上留着的字",
+    "background": "corridor",
+    "date": "2026-03-25",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3067
+  },
+  "h09_06b": {
+    "title": "遥 / 给悠介的那本",
+    "background": "school_gate",
+    "date": "2026-03-26",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3094
+  },
+  "h09_07": {
+    "title": "遥 / 电话那边也有人翻页",
+    "background": "bedroom",
+    "date": "2026-03-27",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3115,
+    "phone": "h"
+  },
+  "h09_08": {
+    "title": "遥 / 两条可以一起走的路",
+    "background": "bookshop",
+    "date": "2026-03-28",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3146
+  },
+  "h09_09": {
+    "title": "遥 / 本来留到明天的",
+    "background": "road_day",
+    "date": "2026-03-29",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3184
+  },
+  "h09_09b": {
+    "title": "遥 / 读到别人的那一页",
+    "background": "library",
+    "date": "2026-03-30",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3213
+  },
+  "h09_10": {
+    "title": "遥 / 三月最后的几天",
+    "background": "club",
+    "date": "2026-03-31",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h09",
+    "source": "story/haruka.rpy",
+    "line": 3230
+  },
+  "h10_01": {
+    "title": "遥 / 新的名字贴上去",
+    "background": "classroom",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3256
+  },
+  "h10_02": {
+    "title": "遥 / 先来的那个人",
+    "background": "club",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3277
+  },
+  "h10_03": {
+    "title": "遥 / 问能不能来的新生",
+    "background": "club",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3294
+  },
+  "h10_04": {
+    "title": "遥 / 她叫我的名字",
+    "background": "corridor",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "smile"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3317
+  },
+  "h10_05": {
+    "title": "遥 / 没有规定借期的那一张",
+    "background": "library",
+    "date": "2026-04-06",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3340
+  },
+  "h10_06": {
+    "title": "遥 / 这次先报自己的名字",
+    "background": "classroom",
+    "date": "2026-04-08",
+    "period": "evening",
+    "actors": [],
+    "music": "daily",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3364
+  },
+  "h10_07": {
+    "title": "遥 / 第一个一起放学的周五",
+    "background": "road_evening",
+    "date": "2026-04-10",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3383
+  },
+  "h10_08d": {
+    "title": "遥 / 由他领路的星期天",
+    "background": "workshop",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3405
+  },
+  "h10_08d2": {
+    "title": "遥 / 走出展览以后",
+    "background": "road_day",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3421
+  },
+  "h10_08b": {
+    "title": "遥 / 从车窗外面走过去",
+    "background": "riverside",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3428
+  },
+  "h10_08b2": {
+    "title": "遥 / 书店以后还有一段",
+    "background": "road_day",
+    "date": "2026-04-12",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3444
+  },
+  "h10_09": {
+    "title": "遥 / 星期天的最后一站",
+    "background": "station_hall",
+    "date": "2026-04-12",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3451
+  },
+  "h10_10": {
+    "title": "遥 / 第一次不为了还书",
+    "background": "library",
+    "date": "2026-04-13",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "h10",
+    "source": "story/haruka.rpy",
+    "line": 3469
+  },
+  "r01_01": {
+    "title": "凛 / 今天先找我的",
+    "background": "corridor",
+    "date": "2025-12-05",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r01",
+    "source": "story/rin.rpy",
+    "line": 6
+  },
+  "r01_02": {
+    "title": "凛 / 别先翻到答案",
+    "background": "club",
+    "date": "2025-12-05",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r01",
+    "source": "story/rin.rpy",
+    "line": 43
+  },
+  "r01_03": {
+    "title": "凛 / 今天先找我的",
+    "background": "roof",
+    "date": "2025-12-05",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "r01",
+    "source": "story/rin.rpy",
+    "line": 85
+  },
+  "r01_04": {
+    "title": "凛 / 没有讲完也可以走",
+    "background": "club",
+    "date": "2025-12-05",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "smile"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r01",
+    "source": "story/rin.rpy",
+    "line": 171
+  },
+  "r01_05": {
+    "title": "凛 / 热汤会先凉",
+    "background": "road_evening",
+    "date": "2025-12-05",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r01",
+    "source": "story/rin.rpy",
+    "line": 205
+  },
+  "r01_06": {
+    "title": "凛 / 只有一张图的晚上",
+    "background": "bedroom",
+    "date": "2025-12-05",
+    "period": "night",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "r01",
+    "source": "story/rin.rpy",
+    "line": 266,
+    "phone": "r"
+  },
+  "r01_07": {
+    "title": "凛 / 先认识我的朋友",
+    "background": "bookshop",
+    "date": "2025-12-07",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r01",
+    "source": "story/rin.rpy",
+    "line": 299
+  },
+  "r01_other_desk": {
+    "title": "凛 / 学长原来坐在这里",
+    "background": "classroom",
+    "date": "2025-12-09",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r01",
+    "source": "story/rin.rpy",
+    "line": 344
+  },
+  "r02_01": {
+    "title": "凛 / 不是替我来写的",
+    "background": "classroom",
+    "date": "2025-12-12",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 380
+  },
+  "r02_02": {
+    "title": "凛 / 留一张给自己",
+    "background": "club",
+    "date": "2025-12-12",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "puzzled"
+      ],
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 430
+  },
+  "r02_03": {
+    "title": "凛 / 先买一个没用的",
+    "background": "station_hall",
+    "date": "2025-12-13",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 481
+  },
+  "r02_04": {
+    "title": "凛 / 不用替我猜",
+    "background": "cafe",
+    "date": "2025-12-13",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 525
+  },
+  "r02_05": {
+    "title": "凛 / 这次写在正面",
+    "background": "bookshop",
+    "date": "2025-12-13",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 579
+  },
+  "r02_06": {
+    "title": "凛 / 到站以后再放开",
+    "background": "platform_day",
+    "date": "2025-12-13",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 620
+  },
+  "r02_07": {
+    "title": "凛 / 星期一没有想象中那么长",
+    "background": "corridor",
+    "date": "2025-12-15",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 654
+  },
+  "r02_winter_target": {
+    "title": "凛 / 那一小片不是玻璃脏了",
+    "background": "roof",
+    "date": "2025-12-17",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 691
+  },
+  "r02_winter_note": {
+    "title": "凛 / 留到合宿再比较",
+    "background": "club",
+    "date": "2025-12-17",
+    "period": "night",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 731
+  },
+  "r02_before_camp": {
+    "title": "凛 / 明天想先看什么",
+    "background": "bedroom",
+    "date": "2025-12-19",
+    "period": "night",
+    "actors": [],
+    "music": "rin",
+    "chapter": "r02",
+    "source": "story/rin.rpy",
+    "line": 745,
+    "phone": "r"
+  },
+  "r03_friday_evening": {
+    "title": "凛 / 周日以前的一点准备",
+    "background": "bedroom",
+    "date": "2026-01-09",
+    "period": "night",
+    "actors": [],
+    "music": "rin",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 788,
+    "phone": "r"
+  },
+  "r03_01": {
+    "title": "凛 / 今天没有观测计划",
+    "background": "station_hall",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 829
+  },
+  "r03_02": {
+    "title": "凛 / 不许先算谁让谁",
+    "background": "arcade",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 863
+  },
+  "r03_03": {
+    "title": "凛 / 赢了一点又输回去",
+    "background": "cafe",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "displeased",
+        "pose2"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 918
+  },
+  "r03_lost_pass": {
+    "title": "凛 / 先找到回去的票",
+    "background": "arcade",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "puzzled"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 955
+  },
+  "r03_04": {
+    "title": "凛 / 重新开始的那一局",
+    "background": "arcade",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 996
+  },
+  "r03_photo_booth": {
+    "title": "凛 / 拍之前先看这里",
+    "background": "arcade",
+    "date": "2026-01-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 1029
+  },
+  "r03_05": {
+    "title": "凛 / 名字要叫第二次",
+    "background": "riverside",
+    "date": "2026-01-11",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 1061
+  },
+  "r03_the_prints": {
+    "title": "凛 / 我想把这一张留在外面",
+    "background": "stairwell",
+    "date": "2026-01-13",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r03",
+    "source": "story/rin.rpy",
+    "line": 1108
+  },
+  "r04_before_question": {
+    "title": "凛 / 声音从电话那边来",
+    "background": "bedroom",
+    "date": "2026-01-18",
+    "period": "day",
+    "actors": [],
+    "music": "playful",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1140,
+    "phone": "r"
+  },
+  "r04_01": {
+    "title": "凛 / 不是那样回答的",
+    "background": "corridor",
+    "date": "2026-01-19",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1177
+  },
+  "r04_02": {
+    "title": "凛 / 她没有坐这边",
+    "background": "club",
+    "date": "2026-01-20",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "h",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1204
+  },
+  "r04_03": {
+    "title": "凛 / 这次不要换说法",
+    "background": "stairwell",
+    "date": "2026-01-23",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1230
+  },
+  "r04_04": {
+    "title": "凛 / 想见你就是理由",
+    "background": "road_day",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1263
+  },
+  "r04_05": {
+    "title": "凛 / 两个人的第一件小事",
+    "background": "cafe",
+    "date": "2026-01-25",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1303
+  },
+  "r04_06": {
+    "title": "凛 / 回去以后还想再说一句",
+    "background": "bedroom",
+    "date": "2026-01-25",
+    "period": "night",
+    "actors": [],
+    "music": "tender",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1343,
+    "phone": "r"
+  },
+  "r04_first_monday": {
+    "title": "凛 / 星期一这次走进来",
+    "background": "classroom",
+    "date": "2026-01-26",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "shy",
+        "pose2"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1370
+  },
+  "r04_her_saturday": {
+    "title": "凛 / 今天先跟朋友",
+    "background": "corridor",
+    "date": "2026-01-30",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1406
+  },
+  "r04_her_message": {
+    "title": "凛 / 她今天看见的",
+    "background": "bedroom",
+    "date": "2026-01-31",
+    "period": "evening",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1426,
+    "phone": "r"
+  },
+  "r04_small_sunday": {
+    "title": "凛 / 这一次没有落空",
+    "background": "cafe",
+    "date": "2026-02-01",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r04",
+    "source": "story/rin.rpy",
+    "line": 1448
+  },
+  "r05_01": {
+    "title": "凛 / 男朋友也要等一下",
+    "background": "corridor",
+    "date": "2026-02-06",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1482
+  },
+  "r05_02": {
+    "title": "凛 / 明天由谁来挑",
+    "background": "road_evening",
+    "date": "2026-02-06",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1505
+  },
+  "r05_03": {
+    "title": "凛 / 不会玩也能喜欢",
+    "background": "bookshop",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1538
+  },
+  "r05_04": {
+    "title": "凛 / 半小时给谁",
+    "background": "cafe",
+    "date": "2026-02-07",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1566
+  },
+  "r05_05": {
+    "title": "凛 / 没有人看着的时候",
+    "background": "riverside",
+    "date": "2026-02-07",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1604
+  },
+  "r05_haircut_wait": {
+    "title": "凛 / 这次要看仔细一点",
+    "background": "road_day",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [],
+    "music": "rin",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1649,
+    "phone": "r"
+  },
+  "r05_haircut_outside": {
+    "title": "凛 / 还是一眼就认得",
+    "background": "road_day",
+    "date": "2026-02-08",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1657
+  },
+  "r05_06": {
+    "title": "凛 / 下次想让她们看见",
+    "background": "club",
+    "date": "2026-02-09",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1684
+  },
+  "r05_birthday": {
+    "title": "凛 / 今天不用猜是什么日子",
+    "background": "station_hall",
+    "date": "2026-02-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1700
+  },
+  "r05_want_to_visit": {
+    "title": "凛 / 想看你平常坐在哪里",
+    "background": "stairwell",
+    "date": "2026-02-12",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1745
+  },
+  "r05_room_preparation": {
+    "title": "凛 / 他也会准备过头",
+    "background": "bedroom",
+    "date": "2026-02-13",
+    "period": "night",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1763,
+    "phone": "r"
+  },
+  "r05_valentine": {
+    "title": "凛 / 盒子里写着名字",
+    "background": "bedroom",
+    "date": "2026-02-14",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r05",
+    "source": "story/rin.rpy",
+    "line": 1781
+  },
+  "r06_01": {
+    "title": "凛 / 写得太满的那一页",
+    "background": "club",
+    "date": "2026-02-18",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 1831
+  },
+  "r06_02": {
+    "title": "凛 / 她们真的来了",
+    "background": "school_gate",
+    "date": "2026-02-20",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "smile"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 1858
+  },
+  "r06_waiting_room": {
+    "title": "凛 / 她们在看她准备什么",
+    "background": "club",
+    "date": "2026-02-20",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 1870,
+    "camera": false
+  },
+  "r06_03": {
+    "title": "凛 / 没有找到的那一团",
+    "background": "roof",
+    "date": "2026-02-20",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "waiting",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 1895
+  },
+  "r06_04": {
+    "title": "凛 / 谁先下楼",
+    "background": "stairwell",
+    "date": "2026-02-20",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "sad"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 1937
+  },
+  "r06_05": {
+    "title": "凛 / 消息没有变短一点",
+    "background": "bedroom",
+    "date": "2026-02-21",
+    "period": "night",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 1983,
+    "phone": "r"
+  },
+  "r06_06": {
+    "title": "凛 / 先把那句话说完",
+    "background": "corridor",
+    "date": "2026-02-23",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "sad"
+      ]
+    ],
+    "music": "distance",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 2003
+  },
+  "r06_ordinary_movie": {
+    "title": "凛 / 今天真的不做什么",
+    "background": "bedroom",
+    "date": "2026-02-26",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 2030
+  },
+  "r06_old_street": {
+    "title": "凛 / 以前走过的那条路",
+    "background": "road_day",
+    "date": "2026-02-28",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 2062
+  },
+  "r06_eclipse_plan": {
+    "title": "凛 / 三月三日想打给你",
+    "background": "cafe",
+    "date": "2026-03-01",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 2113
+  },
+  "r06_eclipse_evening": {
+    "title": "凛 / 先记自己看见的",
+    "background": "bedroom",
+    "date": "2026-03-03",
+    "period": "evening",
+    "actors": [],
+    "music": "night",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 2143,
+    "phone": "r"
+  },
+  "r06_eclipse_call": {
+    "title": "凛 / 在两个窗边看同一轮月亮",
+    "background": "bedroom",
+    "date": "2026-03-03",
+    "period": "night",
+    "actors": [],
+    "music": "tender",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 2167,
+    "phone": "r"
+  },
+  "r06_eclipse_notes": {
+    "title": "凛 / 两张不一样的记录",
+    "background": "club",
+    "date": "2026-03-04",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r06",
+    "source": "story/rin.rpy",
+    "line": 2216
+  },
+  "r07_01": {
+    "title": "凛 / 多出来的一支笔",
+    "background": "club",
+    "date": "2026-03-09",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2241
+  },
+  "r07_02": {
+    "title": "凛 / 她们会在空白上写字",
+    "background": "classroom",
+    "date": "2026-03-10",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2273
+  },
+  "r07_voice_plan": {
+    "title": "凛 / 不用站得那么像学姐",
+    "background": "classroom",
+    "date": "2026-03-10",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2305
+  },
+  "r07_sound_room": {
+    "title": "凛 / 先把桌子上的声音拿走",
+    "background": "club",
+    "date": "2026-03-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2330
+  },
+  "r07_subjects": {
+    "title": "凛 / 没填好的那张表",
+    "background": "library",
+    "date": "2026-03-11",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2352
+  },
+  "r07_03": {
+    "title": "凛 / 只有两个人的午休",
+    "background": "stairwell",
+    "date": "2026-03-12",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2389
+  },
+  "r07_rain_afternoon": {
+    "title": "凛 / 先别把第二把打开",
+    "background": "bookshop",
+    "date": "2026-03-12",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "rain",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2421,
+    "weather": "rain"
+  },
+  "r07_rain_station": {
+    "title": "凛 / 雨停以前的那一小段",
+    "background": "station_hall",
+    "date": "2026-03-12",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "smile"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2464,
+    "weather": "rain"
+  },
+  "r07_04": {
+    "title": "凛 / 给学长看的那一页",
+    "background": "classroom",
+    "date": "2026-03-13",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "puzzled"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2492
+  },
+  "r07_spring_sky": {
+    "title": "凛 / 原来的五颗换了位置",
+    "background": "roof",
+    "date": "2026-03-13",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2518
+  },
+  "r07_sky_afterwards": {
+    "title": "凛 / 纸背面还有一点地方",
+    "background": "club",
+    "date": "2026-03-13",
+    "period": "night",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r07",
+    "source": "story/rin.rpy",
+    "line": 2550
+  },
+  "r08_01": {
+    "title": "凛 / 这回不要全写我的名字",
+    "background": "club",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ],
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2570
+  },
+  "r08_02": {
+    "title": "凛 / 先抢到的那个位置",
+    "background": "noodle_shop",
+    "date": "2026-03-14",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2600
+  },
+  "r08_03": {
+    "title": "凛 / 不是先把明年排满",
+    "background": "riverside",
+    "date": "2026-03-15",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2629
+  },
+  "r08_04": {
+    "title": "凛 / 只把这一个约好",
+    "background": "platform_day",
+    "date": "2026-03-15",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "shy"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2661
+  },
+  "r08_return_path": {
+    "title": "凛 / 这张不用拿给别人看",
+    "background": "classroom",
+    "date": "2026-03-16",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2688
+  },
+  "r08_voice_record": {
+    "title": "凛 / 留下笑出来的那一遍",
+    "background": "classroom",
+    "date": "2026-03-17",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2735
+  },
+  "r08_voice_preview": {
+    "title": "凛 / 这次留够时间听完",
+    "background": "classroom",
+    "date": "2026-03-19",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2768
+  },
+  "r08_before_public": {
+    "title": "凛 / 明天先来找我一下",
+    "background": "cafe",
+    "date": "2026-03-20",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal",
+        "pose2"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2776
+  },
+  "r08_before_public_call": {
+    "title": "凛 / 把今天先留给两个人",
+    "background": "road_day",
+    "date": "2026-03-20",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2818
+  },
+  "r08_night_before": {
+    "title": "凛 / 先说今天的晚安",
+    "background": "bedroom",
+    "date": "2026-03-20",
+    "period": "night",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "r08",
+    "source": "story/rin.rpy",
+    "line": 2843,
+    "phone": "r"
+  },
+  "r09_01": {
+    "title": "凛 / 今天不用站在最前面",
+    "background": "cafe",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r09",
+    "source": "story/rin.rpy",
+    "line": 2874
+  },
+  "r09_02": {
+    "title": "凛 / 她们认识的学长",
+    "background": "road_day",
+    "date": "2026-03-22",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r09",
+    "source": "story/rin.rpy",
+    "line": 2905
+  },
+  "r09_old_classmate": {
+    "title": "凛 / 原来她也会这样笑",
+    "background": "school_gate",
+    "date": "2026-03-26",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r09",
+    "source": "story/rin.rpy",
+    "line": 2931
+  },
+  "r09_03": {
+    "title": "凛 / 终于不全是差一点",
+    "background": "arcade",
+    "date": "2026-03-28",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "r09",
+    "source": "story/rin.rpy",
+    "line": 2960
+  },
+  "r09_04": {
+    "title": "凛 / 家里也有一只歪猫",
+    "background": "kitchen",
+    "date": "2026-03-28",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "r09",
+    "source": "story/rin.rpy",
+    "line": 2994
+  },
+  "r09_group_outing": {
+    "title": "凛 / 今天也有人比她先赢",
+    "background": "riverside",
+    "date": "2026-03-29",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "smile"
+      ]
+    ],
+    "music": "playful",
+    "chapter": "r09",
+    "source": "story/rin.rpy",
+    "line": 3037
+  },
+  "r09_small_jealousy": {
+    "title": "凛 / 那句不是玩笑",
+    "background": "bedroom",
+    "date": "2026-03-29",
+    "period": "night",
+    "actors": [],
+    "music": "distance",
+    "chapter": "r09",
+    "source": "story/rin.rpy",
+    "line": 3084,
+    "phone": "r"
+  },
+  "r09_say_it_here": {
+    "title": "凛 / 我想坐在你旁边",
+    "background": "riverside",
+    "date": "2026-03-30",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r09",
+    "source": "story/rin.rpy",
+    "line": 3117
+  },
+  "r10_01": {
+    "title": "凛 / 二年级的第一天",
+    "background": "school_gate",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "smile"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3159
+  },
+  "r10_02": {
+    "title": "凛 / 新生可以先问一句",
+    "background": "club",
+    "date": "2026-04-06",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3185
+  },
+  "r10_03": {
+    "title": "凛 / 放学后先走这边",
+    "background": "road_day",
+    "date": "2026-04-06",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3210
+  },
+  "r10_waiting_asleep": {
+    "title": "凛 / 等到差一点睡过去",
+    "background": "club",
+    "date": "2026-04-07",
+    "period": "day",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3231
+  },
+  "r10_waking_up": {
+    "title": "凛 / 那个还没吃到的炸饼",
+    "background": "club",
+    "date": "2026-04-07",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "puzzled"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3237
+  },
+  "r10_film_showing": {
+    "title": "凛 / 这次先说我的名字",
+    "background": "classroom",
+    "date": "2026-04-08",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3262
+  },
+  "r10_04": {
+    "title": "凛 / 那一张还是歪的",
+    "background": "roof",
+    "date": "2026-04-10",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3294
+  },
+  "r10_two_songs": {
+    "title": "凛 / 不用每首都喜欢",
+    "background": "road_day",
+    "date": "2026-04-14",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3327
+  },
+  "r10_five_minutes": {
+    "title": "凛 / 今天就是想见你",
+    "background": "stairwell",
+    "date": "2026-04-16",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "tender",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3359
+  },
+  "r10_later_april": {
+    "title": "凛 / 已经说好的晚饭",
+    "background": "station_hall",
+    "date": "2026-04-19",
+    "period": "evening",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "r10",
+    "source": "story/rin.rpy",
+    "line": 3401
+  },
+  "s01_arrival": {
+    "title": "先把行李放稳",
+    "background": "camp_yard_day",
+    "date": "2025-12-20",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ],
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 3,
+    "camera": false
+  },
+  "s01_01": {
+    "title": "夜里没有那么多事",
+    "background": "camp_room",
+    "date": "2025-12-20",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ],
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 13,
+    "camera": false
+  },
+  "s01_02": {
+    "title": "抽到最后的人",
+    "background": "camp_room",
+    "date": "2025-12-20",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ],
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 37,
+    "camera": false
+  },
+  "s01_03": {
+    "title": "凛找到的那一片",
+    "background": "camp_yard",
+    "date": "2025-12-20",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ],
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 71
+  },
+  "s01_04": {
+    "title": "没有拍到的那一张",
+    "background": "camp_room",
+    "date": "2025-12-20",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 114
+  },
+  "s01_vending": {
+    "title": "按错的那一罐",
+    "background": "camp_corridor",
+    "date": "2025-12-20",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 129,
+    "camera": false
+  },
+  "s01_lights_out": {
+    "title": "灯关了以后",
+    "background": "dark",
+    "date": "2025-12-20",
+    "period": "night",
+    "actors": [],
+    "music": "quiet",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 140
+  },
+  "s01_waking": {
+    "title": "先关闹钟",
+    "background": "dark",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [],
+    "music": "daily",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 146
+  },
+  "s01_morning_hall": {
+    "title": "手里拿的是哪一袋",
+    "background": "camp_corridor",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 149,
+    "camera": false
+  },
+  "s01_05": {
+    "title": "早上先找杯子",
+    "background": "camp_day",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ],
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 153
+  },
+  "s01_workbench": {
+    "title": "第六只杯子",
+    "background": "camp_room",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ],
+      [
+        "c",
+        "casual",
+        "normal"
+      ],
+      [
+        "r",
+        "casual",
+        "normal"
+      ],
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 179
+  },
+  "s01_h_window": {
+    "title": "靠窗的两张椅子",
+    "background": "camp_room",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "haruka",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 206
+  },
+  "s01_c_unshown": {
+    "title": "没拿出去的那一张",
+    "background": "camp_room",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [
+      [
+        "c",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "chinatsu",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 218
+  },
+  "s01_r_saved_card": {
+    "title": "那张图带回去",
+    "background": "camp_room",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "rin",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 231
+  },
+  "s01_a_small_piece": {
+    "title": "原来不是一颗螺丝",
+    "background": "camp_room",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [
+      [
+        "a",
+        "casual",
+        "normal"
+      ]
+    ],
+    "music": "akari",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 243
+  },
+  "s01_departure": {
+    "title": "最后再数一遍",
+    "background": "camp_yard_day",
+    "date": "2025-12-21",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ],
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "s01",
+    "source": "story/shared_camp.rpy",
+    "line": 256,
+    "camera": false
+  },
+  "s03_nine_copies": {
+    "title": "带走的那一份",
+    "background": "club",
+    "date": "2026-03-06",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "s03",
+    "source": "story/shared_graduation.rpy",
+    "line": 3
+  },
+  "s04_before_open": {
+    "title": "今天会来的人",
+    "background": "club",
+    "date": "2026-03-21",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "resolve",
+    "chapter": "s04",
+    "source": "story/shared_observing.rpy",
+    "line": 3
+  },
+  "s04_arrivals": {
+    "title": "先从坐下开始",
+    "background": "classroom",
+    "date": "2026-03-21",
+    "period": "evening",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "s04",
+    "source": "story/shared_observing.rpy",
+    "line": 18,
+    "camera": false
+  },
+  "s04_roof": {
+    "title": "亮点还在那里",
+    "background": "roof",
+    "date": "2026-03-21",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ],
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "s04",
+    "source": "story/shared_observing.rpy",
+    "line": 33
+  },
+  "s04_clouds": {
+    "title": "换一张安排继续",
+    "background": "classroom",
+    "date": "2026-03-21",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "quiet",
+    "chapter": "s04",
+    "source": "story/shared_observing.rpy",
+    "line": 61,
+    "camera": false
+  },
+  "s04_after": {
+    "title": "收好以后，放学以后",
+    "background": "club",
+    "date": "2026-03-21",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "s04",
+    "source": "story/shared_observing.rpy",
+    "line": 75
+  },
+  "s02_school": {
+    "title": "假期里的校门",
+    "background": "school_gate",
+    "date": "2026-01-05",
+    "period": "day",
+    "actors": [
+      [
+        "r",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "daily",
+    "chapter": "s02",
+    "source": "story/shared_trial.rpy",
+    "line": 3,
+    "camera": false
+  },
+  "s02_first_try": {
+    "title": "先在地上试一次",
+    "background": "classroom",
+    "date": "2026-01-05",
+    "period": "day",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "club",
+    "chapter": "s02",
+    "source": "story/shared_trial.rpy",
+    "line": 30,
+    "camera": false
+  },
+  "s02_jupiter": {
+    "title": "亮点旁边的小点",
+    "background": "roof",
+    "date": "2026-01-05",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "winter",
+        "normal"
+      ],
+      [
+        "c",
+        "winter",
+        "normal"
+      ],
+      [
+        "r",
+        "winter",
+        "normal"
+      ],
+      [
+        "a",
+        "winter",
+        "normal"
+      ]
+    ],
+    "music": "night",
+    "chapter": "s02",
+    "source": "story/shared_trial.rpy",
+    "line": 56
+  },
+  "s02_after": {
+    "title": "热的先上",
+    "background": "noodle_shop",
+    "date": "2026-01-05",
+    "period": "night",
+    "actors": [
+      [
+        "h",
+        "uniform",
+        "normal"
+      ],
+      [
+        "c",
+        "uniform",
+        "normal"
+      ],
+      [
+        "r",
+        "uniform",
+        "normal"
+      ],
+      [
+        "a",
+        "uniform",
+        "normal"
+      ]
+    ],
+    "music": "warm",
+    "chapter": "s02",
+    "source": "story/shared_trial.rpy",
+    "line": 76
+  }
+}

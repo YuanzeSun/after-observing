@@ -1,0 +1,252 @@
+{
+  "g01": {
+    "title": "海报的另一边",
+    "route": "common",
+    "target": 10000
+  },
+  "g02": {
+    "title": "归还以后",
+    "route": "common",
+    "target": 10000
+  },
+  "g03": {
+    "title": "四种看星的方法",
+    "route": "common",
+    "target": 10000
+  },
+  "g04": {
+    "title": "雨天照常开门",
+    "route": "common",
+    "target": 10000
+  },
+  "g05": {
+    "title": "留给自己的那一格",
+    "route": "common",
+    "target": 10000
+  },
+  "g06": {
+    "title": "下一次想见的人",
+    "route": "common",
+    "target": 10000
+  },
+  "s01": {
+    "title": "山里的两天",
+    "route": "shared",
+    "target": 10000
+  },
+  "s02": {
+    "title": "冬天来过的人",
+    "route": "shared",
+    "target": 10000
+  },
+  "s03": {
+    "title": "带走的那一份",
+    "route": "shared",
+    "target": 10000
+  },
+  "s04": {
+    "title": "春季开放观测",
+    "route": "shared",
+    "target": 10000
+  },
+  "h01": {
+    "title": "借阅箱旁",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h02": {
+    "title": "没有急着说完",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h03": {
+    "title": "周日的借阅证",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h04": {
+    "title": "今天只想请你陪我",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h05": {
+    "title": "两人份的午饭",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h06": {
+    "title": "没能兑现的晚上",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h07": {
+    "title": "她自己的那一页",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h08": {
+    "title": "交到别人手里",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h09": {
+    "title": "第二天的展览",
+    "route": "haruka",
+    "target": 10000
+  },
+  "h10": {
+    "title": "四月，第一排",
+    "route": "haruka",
+    "target": 10000
+  },
+  "c01": {
+    "title": "等到最后的光",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c02": {
+    "title": "留下来的那一张",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c03": {
+    "title": "去邻市的车票",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c04": {
+    "title": "今天想说的话",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c05": {
+    "title": "不用带相机的下午",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c06": {
+    "title": "那天已经约好",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c07": {
+    "title": "重新印一张",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c08": {
+    "title": "地上的九张",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c09": {
+    "title": "十二张已经在这里",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "c10": {
+    "title": "留到下一张",
+    "route": "chinatsu",
+    "target": 10000
+  },
+  "r01": {
+    "title": "下一次让我来找",
+    "route": "rin",
+    "target": 10000
+  },
+  "r02": {
+    "title": "约好之后",
+    "route": "rin",
+    "target": 10000
+  },
+  "r03": {
+    "title": "不是顺便出来的",
+    "route": "rin",
+    "target": 10000
+  },
+  "r04": {
+    "title": "想让你先知道",
+    "route": "rin",
+    "target": 10000
+  },
+  "r05": {
+    "title": "换我来约你",
+    "route": "rin",
+    "target": 10000
+  },
+  "r06": {
+    "title": "没找对的那一晚",
+    "route": "rin",
+    "target": 10000
+  },
+  "r07": {
+    "title": "想请他们来看",
+    "route": "rin",
+    "target": 10000
+  },
+  "r08": {
+    "title": "不只是在学长后面",
+    "route": "rin",
+    "target": 10000
+  },
+  "r09": {
+    "title": "活动结束以后",
+    "route": "rin",
+    "target": 10000
+  },
+  "r10": {
+    "title": "四月，还在这里",
+    "route": "rin",
+    "target": 10000
+  },
+  "a01": {
+    "title": "借来的螺丝",
+    "route": "akari",
+    "target": 10000
+  },
+  "a02": {
+    "title": "另一端的刻度",
+    "route": "akari",
+    "target": 10000
+  },
+  "a03": {
+    "title": "工具间以外",
+    "route": "akari",
+    "target": 10000
+  },
+  "a04": {
+    "title": "这次不是修东西",
+    "route": "akari",
+    "target": 10000
+  },
+  "a05": {
+    "title": "约在校门外",
+    "route": "akari",
+    "target": 10000
+  },
+  "a06": {
+    "title": "没有按时完成",
+    "route": "akari",
+    "target": 10000
+  },
+  "a07": {
+    "title": "还没做好的那部分",
+    "route": "akari",
+    "target": 10000
+  },
+  "a08": {
+    "title": "站在幕后的人",
+    "route": "akari",
+    "target": 10000
+  },
+  "a09": {
+    "title": "留给自己的小制作",
+    "route": "akari",
+    "target": 10000
+  },
+  "a10": {
+    "title": "四月，另一边",
+    "route": "akari",
+    "target": 10000
+  }
+}

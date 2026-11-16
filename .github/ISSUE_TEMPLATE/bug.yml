@@ -1,0 +1,23 @@
+name: 游戏问题
+description: 对白、画面、存档或运行问题
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 游戏版本与系统
+      placeholder: '例如：1.1 / Windows 11'
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: 路线、章节与发生的场景
+      description: 尽量提供当时的选项和紧邻的对白；存档含个人信息时不要直接公开。
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 实际发生了什么，以及期望怎样
+    validations:
+      required: true

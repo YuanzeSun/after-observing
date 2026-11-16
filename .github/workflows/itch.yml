@@ -1,0 +1,54 @@
+name: Sync itch.io
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Published GitHub release tag'
+        required: true
+        default: v1.1
+      target:
+        description: 'itch.io account/project (or use ITCH_TARGET repository variable)'
+        required: false
+  workflow_call:
+    inputs:
+      tag:
+        type: string
+        required: true
+      target:
+        type: string
+        required: false
+    secrets:
+      BUTLER_API_KEY:
+        required: false
+permissions:
+  contents: read
+concurrency:
+  group: itch-production
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.event_name == 'workflow_dispatch' || vars.ITCH_PUBLISH_ENABLED == 'true'
+    runs-on: ubuntu-24.04
+    environment: itch-production
+    timeout-minutes: 45
+    env:
+      RELEASE_TAG: ${{ inputs.tag || github.event.release.tag_name }}
+      ITCH_TARGET: ${{ inputs.target || vars.ITCH_TARGET }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ inputs.tag || github.event.release.tag_name }}
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Download immutable GitHub release and verify all checksums
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python tools/publish.py fetch --tag "$RELEASE_TAG"
+      - name: Push stable Windows and Linux channels
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+        run: python tools/publish.py itch --target "$ITCH_TARGET"
