@@ -34,6 +34,15 @@ def verify_uploaded(files,assets):
         a=actual.get(p.name)
         if not a or a['size']!=p.stat().st_size or a.get('digest')!='sha256:'+digest(p):raise SystemExit('Uploaded asset name/size/digest differs: '+p.name)
 
+def find_release(base,tag):
+    try:return api('GET',base+'/releases/tags/'+urllib.parse.quote(tag,safe=''))
+    except urllib.error.HTTPError as e:
+        if e.code!=404:raise
+    # GitHub's tag endpoint does not return an unpublished draft without a tag.
+    drafts=[r for r in api('GET',base+'/releases?per_page=100') if r['tag_name']==tag and r['draft']]
+    if len(drafts)>1:raise SystemExit('Multiple drafts exist for this version; inspect before publishing')
+    return drafts[0] if drafts else None
+
 def github(args):
     if args.tag!='v'+VERSION:raise SystemExit('Tag must match config.version')
     files=verified_files();repository=os.environ.get('GITHUB_REPOSITORY','YuanzeSun/after-observing')
@@ -41,9 +50,8 @@ def github(args):
     print('Verified release:',repository,args.tag,[p.name for p in files])
     if args.dry_run:return
     base='https://api.github.com/repos/'+repository
-    try:release=api('GET',base+'/releases/tags/'+urllib.parse.quote(args.tag,safe=''))
-    except urllib.error.HTTPError as e:
-        if e.code!=404:raise
+    release=find_release(base,args.tag)
+    if release is None:
         commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R,text=True).strip()
         preview=json.loads((R/'.github/release-policy.json').read_text())['prerelease']
         release=api('POST',base+'/releases',{'tag_name':args.tag,'target_commitish':commit,'name':'观测结束以后 '+VERSION,'draft':True,'prerelease':preview or '-' in VERSION,'body':(R/'docs/RELEASE_NOTES.md').read_text()})

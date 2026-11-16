@@ -1,4 +1,4 @@
-import contextlib,hashlib,io,json,sys,tempfile,unittest
+import contextlib,hashlib,io,json,sys,tempfile,unittest,urllib.error
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
@@ -39,6 +39,16 @@ class PublishingChecks(unittest.TestCase):
         files=publish.verified_files();assets=[{'name':p.name,'size':p.stat().st_size,'digest':'sha256:'+publish.digest(p)} for p in files]
         assets[0]['digest']='sha256:'+'0'*64
         with self.assertRaises(SystemExit):publish.verify_uploaded(files,assets)
+    def test_draft_is_reused_when_tag_endpoint_returns_404(self):
+        missing=urllib.error.HTTPError('https://api.github.com/example',404,'not found',{},None)
+        draft={'id':12,'tag_name':'v1.1','draft':True}
+        with patch.object(publish,'api',side_effect=[missing,[draft]]):
+            self.assertEqual(publish.find_release('https://api.github.com/example','v1.1'),draft)
+    def test_ambiguous_drafts_are_rejected(self):
+        missing=urllib.error.HTTPError('https://api.github.com/example',404,'not found',{},None)
+        drafts=[{'id':x,'tag_name':'v1.1','draft':True} for x in [1,2]]
+        with patch.object(publish,'api',side_effect=[missing,drafts]):
+            with self.assertRaises(SystemExit):publish.find_release('https://api.github.com/example','v1.1')
 
 class BodyChecks(unittest.TestCase):
     def test_unregistered_padding_is_not_body(self):
