@@ -52,3 +52,11 @@ jobs:
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         run: python tools/publish.py itch --target "$ITCH_TARGET"
+  verify:
+    needs: sync
+    uses: ./.github/workflows/itch-status.yml
+    with:
+      tag: ${{ inputs.tag || github.event.release.tag_name }}
+      target: ${{ inputs.target || vars.ITCH_TARGET }}
+    secrets:
+      BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}

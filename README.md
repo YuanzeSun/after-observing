@@ -20,6 +20,14 @@
 
 **朝仓灯里**喜欢做小东西，话不多，吐槽常常来得很准。她的包里有零件，也有一本不会拿去展示的唱片目录。
 
+## 游戏画面
+
+| 藤野遥 · 到期以前 | 小原千夏 · 周六先空出来 |
+| :---: | :---: |
+| ![藤野遥和小原千夏在天文社活动室](docs/images/haruka.png) | ![带着相机的小原千夏](docs/images/chinatsu.png) |
+| **佐伯凛 · 今天先找我的** | **朝仓灯里 · 不用带工具的早上** |
+| ![冬日走廊里的佐伯凛](docs/images/rin.png) | ![站台上的朝仓灯里](docs/images/akari.png) |
+
 ## 下载
 
 [Windows / Linux 版本与离线全文](https://github.com/YuanzeSun/after-observing/releases)

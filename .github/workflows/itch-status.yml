@@ -1,0 +1,40 @@
+name: Verify itch.io
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to verify'
+        default: v1.1
+        required: true
+  workflow_call:
+    inputs:
+      tag:
+        type: string
+        required: true
+      target:
+        type: string
+        required: false
+    secrets:
+      BUTLER_API_KEY:
+        required: true
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    environment: itch-production
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            .github/toolchain.json
+            tools/itch_status.py
+          sparse-checkout-cone-mode: false
+      - name: Wait for completed Windows and Linux builds with matching versions
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+          ITCH_TARGET: ${{ inputs.target || vars.ITCH_TARGET }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: python tools/itch_status.py --target "$ITCH_TARGET" --tag "$RELEASE_TAG"
