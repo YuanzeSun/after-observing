@@ -7,4 +7,4 @@
 - 后续图像制作走OpenAI Images API，不使用账号内置生图；不制作无请求的对照图。密钥只读环境，禁止提交或打进发行包。
 - 构建前恢复save-baseline，固定SDK与依赖摘要。验证与构建共享tools/ci.py入口，不能用旧指纹证据冒充当前稿。
 - 不提交SDK、个人存档、构建缓存、安装包或废弃迭代素材。剧情、图片与代码的许可状态分别见LICENSING.md，不擅自改授通用许可。
-- itch同步尚需项目路径与BUTLER_API_KEY，默认不启用自动推送。
+- itch同步目标是luca-66/after-observation；凭据仅存GitHub Actions Secret BUTLER_API_KEY。自动推送由Repository Variable ITCH_PUBLISH_ENABLED控制，推送后还须验证两个频道处理完成且版本一致。

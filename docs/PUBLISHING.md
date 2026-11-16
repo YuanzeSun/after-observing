@@ -30,7 +30,11 @@ GitHub自己的`GITHUB_TOKEN`所产生的事件通常不会再触发另一个工
 
 同步下载并核对GitHub同版本的所有校验和，解压后把稳定文件路径交给butler，分别推送Windows和Linux目录。Linux可执行位保留；自动生成`.itch.toml`指向正确启动器。butler版本与文件摘要固定，新增版本需审阅更新工具链锁。
 
-目前尚未配置itch账号、项目路径或令牌，自动同步默认关闭。OpenAI制作密钥与itch发布令牌互不相同，CI构建游戏不需要OpenAI密钥。
+当前目标为`luca-66/after-observation`，`BUTLER_API_KEY`已在GitHub Actions Secrets配置，`ITCH_PUBLISH_ENABLED=true`。2026-11-16首次同步v1.1成功，Windows构建2404893、Linux构建2404895均已在服务端处理完成，版本均为1.1。证据：[上传任务](https://github.com/YuanzeSun/after-observing/actions/runs/43861963378)、[服务端版本核验](https://github.com/YuanzeSun/after-observing/actions/runs/43864122174)。项目页面目前仍未对外开放，页面可见性需在itch编辑页保存为Public。
+
+同步完成后自动调用“Verify itch.io”，使用同一锁定版本的butler读取服务端频道状态。只有Windows和Linux的已完成构建都匹配本次版本、且没有待处理构建时才通过；服务端处理失败或超时会使核验失败。此工作流也可单独手动运行，检查已有上传而不重新下载或上传安装包。
+
+OpenAI制作密钥与itch发布令牌互不相同，CI构建游戏不需要OpenAI密钥。
 
 ## 公开材料与边界
 
