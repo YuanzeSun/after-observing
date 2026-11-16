@@ -29,6 +29,16 @@ class PublishingChecks(unittest.TestCase):
     def test_itch_target_cannot_inject_channel(self):
         from types import SimpleNamespace
         with self.assertRaises(SystemExit):publish.itch(SimpleNamespace(target='user/game:other-channel',dry_run=True))
+    def test_release_names_are_ascii(self):
+        self.assertTrue(all(p.name.isascii() for p in publish.verified_files()))
+    def test_server_normalized_name_is_rejected(self):
+        files=publish.verified_files();assets=[{'name':p.name,'size':p.stat().st_size,'digest':'sha256:'+publish.digest(p)} for p in files]
+        assets[2]['name']='1.1.html'
+        with self.assertRaises(SystemExit):publish.verify_uploaded(files,assets)
+    def test_server_digest_must_match(self):
+        files=publish.verified_files();assets=[{'name':p.name,'size':p.stat().st_size,'digest':'sha256:'+publish.digest(p)} for p in files]
+        assets[0]['digest']='sha256:'+'0'*64
+        with self.assertRaises(SystemExit):publish.verify_uploaded(files,assets)
 
 class BodyChecks(unittest.TestCase):
     def test_unregistered_padding_is_not_body(self):

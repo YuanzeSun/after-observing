@@ -28,6 +28,12 @@ def api(method,url,body=None):
     request=urllib.request.Request(url,data=data,method=method,headers={'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','User-Agent':'after-observing-release'})
     with urllib.request.urlopen(request,timeout=60) as f:return json.load(f) if f.status!=204 else None
 
+def verify_uploaded(files,assets):
+    actual={a['name']:a for a in assets}
+    for p in files:
+        a=actual.get(p.name)
+        if not a or a['size']!=p.stat().st_size or a.get('digest')!='sha256:'+digest(p):raise SystemExit('Uploaded asset name/size/digest differs: '+p.name)
+
 def github(args):
     if args.tag!='v'+VERSION:raise SystemExit('Tag must match config.version')
     files=verified_files();repository=os.environ.get('GITHUB_REPOSITORY','YuanzeSun/after-observing')
@@ -80,10 +86,7 @@ def github(args):
         headers='Authorization: Bearer '+token+'\nContent-Type: application/octet-stream\n'
         subprocess.run(['curl','--fail','--silent','--show-error','--request','POST','--header','@-','--data-binary','@'+str(p),url],input=headers.encode(),stdout=subprocess.DEVNULL,check=True)
     uploaded=api('GET',base+'/releases/'+str(release['id']))
-    actual={a['name']:a for a in uploaded['assets']}
-    for p in files:
-        a=actual.get(p.name)
-        if not a or a['size']!=p.stat().st_size or a.get('digest')!='sha256:'+digest(p):raise SystemExit('Uploaded asset name/size/digest differs: '+p.name)
+    verify_uploaded(files,uploaded['assets'])
     if release['draft'] and not args.draft:api('PATCH',base+'/releases/'+str(release['id']),{'draft':False})
     print('Release uploaded:',release['html_url'])
 
