@@ -8,7 +8,7 @@ class PublishingChecks(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name)
-        self.names=[publish.PACKAGE+'-win.zip',publish.PACKAGE+'-linux.tar.bz2',publish.VERSION+'离线全文.html','verification-evidence.zip','save-baseline.zip']
+        self.names=[publish.PACKAGE+'-win.zip',publish.PACKAGE+'-linux.tar.bz2',publish.PACKAGE+'-reader.html','verification-evidence.zip','save-baseline.zip']
         lines=[]
         for name in self.names:
             data=('isolated-unit-fixture:'+name).encode();(self.root/name).write_bytes(data);lines.append(hashlib.sha256(data).hexdigest()+'  '+name)

@@ -144,7 +144,7 @@ def bundle():
         for p in sorted((stage/'game').rglob('*.rpyc')):
             rel=p.relative_to(stage).as_posix();z.write(p,rel);files.append({'path':rel,'sha256':sha(p)})
         z.writestr('manifest.json',json.dumps({'version':game_version(),'files':files},indent=2))
-    paths=[DIST/name for name in [PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',VERSION+'离线全文.html','verification-evidence.zip','save-baseline.zip']]
+    paths=[DIST/name for name in [PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',PACKAGE+'-reader.html','verification-evidence.zip','save-baseline.zip']]
     if not all(p.is_file() for p in paths):raise SystemExit('Release output is incomplete')
     (DIST/'SHA256SUMS.txt').write_text(''.join(sha(p)+'  '+p.name+'\n' for p in paths))
 

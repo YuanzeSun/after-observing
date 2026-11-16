@@ -264,7 +264,7 @@ def embedded_font(data_text):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input', type=Path, default=WORK / 'playthrough')
-    parser.add_argument('--output', type=Path, default=DIST / (VERSION+'离线全文.html'))
+    parser.add_argument('--output', type=Path, default=DIST / ('AfterObserving-'+VERSION+'-reader.html'))
     parser.add_argument('--check', action='store_true', help='只校验真实导出，不写阅读器')
     args = parser.parse_args()
     try:

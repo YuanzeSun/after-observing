@@ -11,7 +11,7 @@ def digest(p):
 
 def verified_files():
     sums=DIST/'SHA256SUMS.txt';files=[]
-    allowed={PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',VERSION+'离线全文.html','verification-evidence.zip','save-baseline.zip'}
+    allowed={PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',PACKAGE+'-reader.html','verification-evidence.zip','save-baseline.zip'}
     for line in sums.read_text().splitlines():
         value,name=line.split('  ',1)
         if name not in allowed or Path(name).name!=name:raise SystemExit('Unexpected release asset')
@@ -55,8 +55,20 @@ def github(args):
             if name not in existing or existing[name].get('digest')!='sha256:'+value:raise SystemExit('Published asset digest does not match its manifest')
         print('Same commit is already completely published; preserved immutable release:',release['html_url']);return
     if not release['draft'] and args.draft:raise SystemExit('Refusing to modify an already published release')
+    commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R,text=True).strip()
+    if release['target_commitish']!=commit:
+        try:
+            ref=api('GET',base+'/git/ref/tags/'+urllib.parse.quote(args.tag,safe=''))
+        except urllib.error.HTTPError as e:
+            if e.code!=404:raise
+            ref=None
+        if ref and ref['object']['sha']!=commit:raise SystemExit('Existing tag points to a different commit; use a new version')
+        release=api('PATCH',base+'/releases/'+str(release['id']),{'target_commitish':commit})
     token=os.environ.get('GH_TOKEN') or os.environ['GITHUB_TOKEN']
     existing={a['name']:a for a in release['assets']}
+    # GitHub normalizes non-ASCII asset names; remove only legacy generated aliases.
+    for legacy in [VERSION+'.html',VERSION+'离线全文.html']:
+        if legacy in existing:api('DELETE',base+'/releases/assets/'+str(existing[legacy]['id']))
     for p in files:
         if p.name in existing:
             a=existing[p.name]
@@ -67,6 +79,11 @@ def github(args):
         # curl reads the authorization from stdin, never from command arguments.
         headers='Authorization: Bearer '+token+'\nContent-Type: application/octet-stream\n'
         subprocess.run(['curl','--fail','--silent','--show-error','--request','POST','--header','@-','--data-binary','@'+str(p),url],input=headers.encode(),stdout=subprocess.DEVNULL,check=True)
+    uploaded=api('GET',base+'/releases/'+str(release['id']))
+    actual={a['name']:a for a in uploaded['assets']}
+    for p in files:
+        a=actual.get(p.name)
+        if not a or a['size']!=p.stat().st_size or a.get('digest')!='sha256:'+digest(p):raise SystemExit('Uploaded asset name/size/digest differs: '+p.name)
     if release['draft'] and not args.draft:api('PATCH',base+'/releases/'+str(release['id']),{'draft':False})
     print('Release uploaded:',release['html_url'])
 
@@ -108,7 +125,7 @@ def fetch(args):
     repo=os.environ.get('GITHUB_REPOSITORY','YuanzeSun/after-observing')
     release=api('GET','https://api.github.com/repos/'+repo+'/releases/tags/'+urllib.parse.quote(args.tag,safe=''))
     if release['draft']:raise SystemExit('Publish the GitHub release before syncing it to itch.io')
-    assets={a['name']:a for a in release['assets']};names=[PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',VERSION+'离线全文.html','verification-evidence.zip','save-baseline.zip','SHA256SUMS.txt']
+    assets={a['name']:a for a in release['assets']};names=[PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',PACKAGE+'-reader.html','verification-evidence.zip','save-baseline.zip','SHA256SUMS.txt']
     DIST.mkdir(exist_ok=True,parents=True)
     for name in names:
         if name not in assets:raise SystemExit('Release asset missing: '+name)
