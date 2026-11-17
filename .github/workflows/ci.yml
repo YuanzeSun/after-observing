@@ -55,4 +55,6 @@ jobs:
             docs/body-statistics.json
             .build/playthrough/*/native.log
             .build/qa/native-ui/native.log
+            .build/qa/cg-patch/*.log
+            docs/cg-patch-verification.json
 

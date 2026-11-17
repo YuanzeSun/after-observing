@@ -18,6 +18,12 @@ Ren’Py的无名语句ID含编译时信息，因此不能每次从空缓存随�
 
 在GitHub环境中，构建会优先下载上一稳定Release的`save-baseline.zip`，用该Release的SHA256SUMS校验，再恢复标识。每个新Release都附带其实际编译后的下一次基线。原生剧情、事实含义或调用关系发生变化时，仍必须另做旧存档接续验证。
 
+## CG解锁补丁与玩家存档
+
+从1.1.1起，发行包另附`AfterObserving-版本-cg-unlock.zip`，来源为`extras/cg-unlock/`。这是可选的插画解锁脚本，兼容1.1，不随正常游戏包自动安装。发行清单对它单独计算校验和；`save-baseline.zip`继续仅供开发者使用，压缩包内说明和GitHub资产标签都会明确提示不要当作存档安装。
+
+`tools/cg_patch.py verify`在隔离的Ren’Py原生进程中测试默认锁定、安装后的32张插画与空读取页、移除脚本后重启，以及已有存档安装补丁和升级后的接续。核对已有`.save`文件哈希不变，已读章节、选项、路线、照片、音乐与前情均保留。只有补丁和游戏运行指纹匹配验收记录，构建才会打包该补丁；不收录任何QA存档。此测试不代表Windows实机验证。
+
 ## 启用itch.io
 
 1. 在itch.io创建游戏项目，记下`账号/项目`，例如`your-name/after-observing`。

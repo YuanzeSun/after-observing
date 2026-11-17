@@ -8,3 +8,5 @@ DIST=Path(os.environ.get('AO_DIST',PROJECT/'dist')).resolve()
 
 VERSION=re.search(r'define config.version = "([^"]+)"',(PROJECT/"game/core.rpy").read_text())[1]
 PACKAGE="AfterObserving-"+VERSION
+RELEASE_FILES = [PACKAGE+'-win.zip', PACKAGE+'-linux.tar.bz2', PACKAGE+'-reader.html',
+                 PACKAGE+'-cg-unlock.zip', 'verification-evidence.zip', 'save-baseline.zip']

@@ -10,7 +10,7 @@ on:
         required: true
       tag:
         description: 'Must equal v + config.version'
-        default: v1.1
+        default: v1.1.1
         required: true
       draft:
         description: 'Keep the release as a draft'
@@ -87,6 +87,8 @@ jobs:
             docs/*report.json
             docs/package-*.json
             .build/qa/*.log
+            .build/qa/cg-patch/*.log
+            docs/cg-patch-verification.json
             .build/playthrough/*/native.log
   sync-itch:
     needs: build-and-publish

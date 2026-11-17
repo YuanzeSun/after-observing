@@ -105,12 +105,12 @@ def stage():
 
 共通篇末会明确选择下一次想单独见面的人，四条路线均可首次游玩，没有隐藏好感或顺序锁。章节连续衔接，章首会留下自动备份；也可随时手动存档、命名、读取或删除。结局可以重选另一条路线。回想使用实际已读前情，结束回放后恢复主线进度。
 
-1.1使用独立存档，不读取1.0的旧存档。
+1.1及其维护版本共用存档目录，升级后可直接继续读取已有存档与鉴赏记录；不读取1.0的旧存档。
 
 ## 素材署名与许可
 
 音乐、字体及引擎与其第三方组件的许可文件在 `LICENSES` 文件夹。游戏内“制作与素材署名”提供曲目和来源说明。
-'''.replace('1.1',VERSION),encoding='utf-8')
+'''.replace('AfterObserving-1.1',PACKAGE).replace('# 观测结束以后 1.1','# 观测结束以后 '+VERSION),encoding='utf-8')
  # Keep all registered public/private photo props used by scripts, but no obsolete sprite revisions.
  used.update('images/release/'+p.name for p in (G/'images/release').glob('photo_*.png'))
  for p in (out/'game/images').rglob('*'):

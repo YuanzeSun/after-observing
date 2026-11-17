@@ -7,7 +7,7 @@ on:
       tag:
         description: 'Published GitHub release tag'
         required: true
-        default: v1.1
+        default: v1.1.1
       target:
         description: 'itch.io account/project (or use ITCH_TARGET repository variable)'
         required: false

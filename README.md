@@ -32,4 +32,6 @@
 
 [Windows / Linux 版本与离线全文](https://github.com/YuanzeSun/after-observing/releases)
 
+想先欣赏插画，也可在发布页下载独立的 CG 解锁补丁（含剧透）。
+
 itch.io 页面准备中。

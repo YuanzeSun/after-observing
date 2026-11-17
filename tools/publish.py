@@ -1,7 +1,7 @@
 """Publish verified outputs. No credentials are stored in this repository."""
 import argparse,hashlib,json,os,re,subprocess,tarfile,urllib.request,urllib.error,urllib.parse,zipfile
 from pathlib import Path
-from paths import PROJECT as R, WORK, DIST, VERSION, PACKAGE
+from paths import PROJECT as R, WORK, DIST, VERSION, PACKAGE, RELEASE_FILES
 
 def digest(p):
     h=hashlib.sha256()
@@ -11,7 +11,7 @@ def digest(p):
 
 def verified_files():
     sums=DIST/'SHA256SUMS.txt';files=[]
-    allowed={PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',PACKAGE+'-reader.html','verification-evidence.zip','save-baseline.zip'}
+    allowed=set(RELEASE_FILES)
     for line in sums.read_text().splitlines():
         value,name=line.split('  ',1)
         if name not in allowed or Path(name).name!=name:raise SystemExit('Unexpected release asset')
@@ -89,7 +89,8 @@ def github(args):
             if a.get('digest')=='sha256:'+digest(p):continue
             if not release['draft']:raise SystemExit('Published assets are immutable; use a new version')
             api('DELETE',base+'/releases/assets/'+str(a['id']))
-        url=release['upload_url'].split('{',1)[0]+'?'+urllib.parse.urlencode({'name':p.name})
+        labels={PACKAGE+'-win.zip':'Windows 游戏完整包',PACKAGE+'-linux.tar.bz2':'Linux 游戏完整包',PACKAGE+'-cg-unlock.zip':'可选：全部 CG 解锁补丁（不含存档）','save-baseline.zip':'开发者构建数据（不是通关存档，请勿安装）','verification-evidence.zip':'自动化验收记录（开发者）',PACKAGE+'-reader.html':'离线全文阅读器'}
+        url=release['upload_url'].split('{',1)[0]+'?'+urllib.parse.urlencode({'name':p.name,'label':labels.get(p.name,p.name)})
         # curl reads the authorization from stdin, never from command arguments.
         headers='Authorization: Bearer '+token+'\nContent-Type: application/octet-stream\n'
         subprocess.run(['curl','--fail','--silent','--show-error','--request','POST','--header','@-','--data-binary','@'+str(p),url],input=headers.encode(),stdout=subprocess.DEVNULL,check=True)
@@ -136,7 +137,7 @@ def fetch(args):
     repo=os.environ.get('GITHUB_REPOSITORY','YuanzeSun/after-observing')
     release=api('GET','https://api.github.com/repos/'+repo+'/releases/tags/'+urllib.parse.quote(args.tag,safe=''))
     if release['draft']:raise SystemExit('Publish the GitHub release before syncing it to itch.io')
-    assets={a['name']:a for a in release['assets']};names=[PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',PACKAGE+'-reader.html','verification-evidence.zip','save-baseline.zip','SHA256SUMS.txt']
+    assets={a['name']:a for a in release['assets']};names=RELEASE_FILES+['SHA256SUMS.txt']
     DIST.mkdir(exist_ok=True,parents=True)
     for name in names:
         if name not in assets:raise SystemExit('Release asset missing: '+name)

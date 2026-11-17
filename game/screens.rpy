@@ -117,7 +117,7 @@ screen main_menu():
         textbutton "操作帮助" action ShowMenu("help")
         textbutton "制作与素材署名" action ShowMenu("credits")
         textbutton "退出" action Quit(confirm=False)
-    text "1.1 / 四条独立路线" xpos 120 ypos 1020 size 21 color "#c0cbd7"
+    text (config.version + " / 四条独立路线") xpos 120 ypos 1020 size 21 color "#c0cbd7"
 
 screen menu_shell(title):
     add "bg roof"
@@ -436,7 +436,7 @@ screen credits():
         xpos 145 ypos 210 xsize 1620 ysize 775 mousewheel True draggable True
         vbox:
             spacing 22
-            text "观测结束以后 / 1.1" size 42 color "#eddbb8"
+            text ("观测结束以后 / " + config.version) size 42 color "#eddbb8"
             text "故事、程序与制作：项目创作者与 Codex 协作" size 27
             text "图像：OpenAI imagegen。提示词、参考与原图在工程素材台账保存。" size 26 xsize 1550
             text "音乐：Kevin MacLeod (incompetech.com) / CC BY 4.0" size 28

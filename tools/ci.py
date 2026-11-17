@@ -1,7 +1,7 @@
 """Portable CI entry points. Source checks, native runs and releases share guards."""
 import argparse,hashlib,json,os,re,shutil,subprocess,sys,tarfile,zipfile,urllib.request,urllib.error,platform
 from pathlib import Path
-from paths import PROJECT as R, WORK, SDK, DIST, VERSION, PACKAGE
+from paths import PROJECT as R, WORK, SDK, DIST, VERSION, PACKAGE, RELEASE_FILES
 
 def run(*command,env=None,cwd=R):
     subprocess.run(list(map(str,command)),cwd=cwd,env=env,check=True)
@@ -114,6 +114,7 @@ def native():
     with (q/'native.log').open('w') as f:
         result=subprocess.run([str(SDK/'renpy.sh'),str(project),'--savedir',str(q/'profile'),'test','shell','c_review','story_navigation','visual_references','visual_assets.dialogue_layout','--overwrite-screenshots'],cwd=R,env=env,stdout=f,stderr=subprocess.STDOUT)
     print((q/'native.log').read_text()[-3000:]);result.check_returncode()
+    run(sys.executable,'tools/cg_patch.py','verify')
 
 def build():
     run(sys.executable,'tools/release.py','build')
@@ -126,7 +127,7 @@ def bundle():
     DIST.mkdir(exist_ok=True,parents=True)
     from release import runtime_digest,story_digest
     evidence=WORK/'evidence';evidence.mkdir(exist_ok=True,parents=True)
-    for name in ['playthrough-coverage.json','body-statistics.json','reader-report.json','package-verification.json','package-smoke.json','package-smoke.md']:
+    for name in ['playthrough-coverage.json','body-statistics.json','reader-report.json','package-verification.json','package-smoke.json','package-smoke.md','cg-patch-verification.json']:
         p=R/'docs'/name
         if p.exists():shutil.copy2(p,evidence/name)
     for p in (WORK/'playthrough').glob('*/native.log'):shutil.copy2(p,evidence/(p.parent.name+'.log'))
@@ -141,10 +142,13 @@ def bundle():
     stage=WORK/'staging'/PACKAGE
     files=[]
     with zipfile.ZipFile(DIST/'save-baseline.zip','w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('README.txt','Developer build data only. NOT player saves or a CG unlock patch. Do not install into your game.\n开发者构建数据，不是玩家存档或CG解锁补丁，请勿安装。\n')
         for p in sorted((stage/'game').rglob('*.rpyc')):
             rel=p.relative_to(stage).as_posix();z.write(p,rel);files.append({'path':rel,'sha256':sha(p)})
         z.writestr('manifest.json',json.dumps({'version':game_version(),'files':files},indent=2))
-    paths=[DIST/name for name in [PACKAGE+'-win.zip',PACKAGE+'-linux.tar.bz2',PACKAGE+'-reader.html','verification-evidence.zip','save-baseline.zip']]
+    from cg_patch import bundle as patch_bundle
+    patch_bundle()
+    paths=[DIST/name for name in RELEASE_FILES]
     if not all(p.is_file() for p in paths):raise SystemExit('Release output is incomplete')
     (DIST/'SHA256SUMS.txt').write_text(''.join(sha(p)+'  '+p.name+'\n' for p in paths))
 

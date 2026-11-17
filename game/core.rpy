@@ -1,5 +1,5 @@
 define config.name = "观测结束以后"
-define config.version = "1.1"
+define config.version = "1.1.1"
 define config.screen_width = 1920
 define config.screen_height = 1080
 define config.save_directory = "after-observing-1-1"
